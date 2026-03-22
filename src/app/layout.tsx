@@ -20,6 +20,15 @@ export const metadata: Metadata = {
   title: "Fazlerasheed and Company - Battery Operated Forklifts, Reach Trucks & MHE in Pakistan",
   description:
     "Fazlerasheed and Company deals in sale and rental of imported battery operated forklift, reach truck and material handling equipment in Pakistan. 10+ years experience, 200+ machines fleet.",
+  icons: {
+    icon: [
+      { url: "/images/favicons/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/favicons/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    shortcut: "/images/favicons/favicon.ico",
+    apple: "/images/favicons/apple-touch-icon.png",
+  },
+  manifest: "/images/favicons/site.webmanifest",
   openGraph: {
     title: "Fazl-E-Rasheed And Company - Battery Operated Forklifts, Reach Trucks And Stackers",
     description:
