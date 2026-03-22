@@ -5,7 +5,14 @@
       "Bash(bunx create-next-app@latest:*)",
       "Bash(timeout 10 bun run:*)",
       "WebFetch(domain:fazlerasheed.com)",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:web.archive.org)",
+      "Bash(curl:*)",
+      "Bash(cd /Users/muhammadabdullahkhalil/Desktop/fazlerasheed-landing && bun run build 2>&1)",
+      "Bash(xxd)",
+      "Bash(done)",
+      "Bash(bun run:*)",
+      "Bash(cd:*)"
     ]
   }
 }
