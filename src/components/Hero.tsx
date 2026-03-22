@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import RotatingText from "./RotatingText";
 
 export default function Hero() {
   return (
@@ -17,7 +18,8 @@ export default function Hero() {
           </div>
           <h1 className="mb-6 text-4xl font-bold leading-[1.15] tracking-tight text-foreground font-heading md:text-5xl lg:text-[3.25rem]">
             Leaders in Imported{" "}
-            <span className="text-primary">Electric Forklifts</span> in Pakistan
+            <br className="hidden sm:block" />
+            <span className="text-primary">Electric</span> <RotatingText /> in Pakistan
           </h1>
           <p className="mb-8 text-base leading-relaxed text-muted md:text-lg">
             Elevate your warehouse operations with a leading partner that has
