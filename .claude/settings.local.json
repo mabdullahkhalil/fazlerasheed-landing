@@ -12,7 +12,8 @@
       "Bash(xxd)",
       "Bash(done)",
       "Bash(bun run:*)",
-      "Bash(cd:*)"
+      "Bash(cd:*)",
+      "Bash(python3:*)"
     ]
   }
 }
