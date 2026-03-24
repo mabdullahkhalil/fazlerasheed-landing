@@ -228,10 +228,7 @@ export default function Footer() {
                 info@fazlerasheed.com
               </a>
               <a href="mailto:sales@fazlerasheed.com" className="block text-sm text-muted hover:text-primary">
-                sales@fazlerasheed.com
-              </a>
-              <a href="mailto:rent@fazlerasheed.com" className="block text-sm text-muted hover:text-primary">
-                rent@fazlerasheed.com
+                marketing@fazlerasheed.com
               </a>
             </div>
           </div>
