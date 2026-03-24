@@ -182,6 +182,7 @@ const nextConfig: NextConfig = {
       { source: "/wp-json/:path*", destination: "/", permanent: true },
       { source: "/feed", destination: "/blog", permanent: true },
       { source: "/feed/", destination: "/blog", permanent: true },
+      { source: "/sitemap_index.xml", destination: "/sitemap.xml", permanent: true },
 
       // ═══════════════════════════════════════════════
       // 8. TRAILING SLASH CLEANUP for key pages
