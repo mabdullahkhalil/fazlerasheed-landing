@@ -38,7 +38,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="bg-white py-20">
+    <section data-fast-scroll="scroll_to_features" className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="mb-14 text-center">
           <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">

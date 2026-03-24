@@ -71,6 +71,7 @@ export default function ContactPage() {
           <div className="flex flex-wrap justify-center gap-3">
             <a
               href="tel:+923336871970"
+              data-fast-goal="contact_phone_clicked"
               className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3 text-sm font-semibold text-primary shadow-lg transition-all hover:shadow-xl"
             >
               Call +92 333 6871970
@@ -78,6 +79,7 @@ export default function ContactPage() {
             </a>
             <a
               href="mailto:info@fazlerasheed.com"
+              data-fast-goal="contact_email_clicked"
               className="inline-flex items-center gap-2 rounded-full border-2 border-white/25 px-7 py-3 text-sm font-semibold text-white transition-all hover:border-white/50 hover:bg-white/10"
             >
               Email Us

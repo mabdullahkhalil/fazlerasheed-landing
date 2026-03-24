@@ -9,10 +9,22 @@ export default function ContactForm() {
     e.preventDefault();
     setStatus("sending");
 
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
     // For now, simulate form submission
     // Replace with actual API endpoint (e.g., Formspree, EmailJS, or custom API route)
     await new Promise((resolve) => setTimeout(resolve, 1000));
     setStatus("sent");
+
+    // Track form submission as a DataFast goal
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const w = window as any;
+    if (typeof w.datafast === "function") {
+      w.datafast("contact_form_submitted", {
+        subject: formData.get("subject") || "",
+      });
+    }
   }
 
   if (status === "sent") {

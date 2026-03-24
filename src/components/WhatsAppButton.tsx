@@ -7,6 +7,7 @@ export default function WhatsAppButton() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
+      data-fast-goal="whatsapp_clicked"
       className="fixed bottom-6 right-6 z-50 flex items-center gap-2.5 rounded-full bg-[#25d366] py-3 pl-4 pr-5 text-sm font-semibold text-white shadow-lg shadow-[#25d366]/25 transition-all hover:scale-105 hover:shadow-xl hover:shadow-[#25d366]/30"
     >
       <svg width="22" height="22" viewBox="0 0 24 24" fill="white">

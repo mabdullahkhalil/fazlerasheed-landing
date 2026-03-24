@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Open_Sans, Poppins } from "next/font/google";
+import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -153,6 +154,12 @@ export default function RootLayout({
               },
             ]),
           }}
+        />
+        <Script
+          src="https://datafa.st/js/script.js"
+          data-website-id="dfid_sgPBblEEEI2mFI2d0yO65"
+          data-domain="fazlerahseed.com"
+          strategy="afterInteractive"
         />
         <Header />
         <main className="flex-1">{children}</main>

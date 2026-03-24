@@ -4,7 +4,7 @@ import RotatingText from "./RotatingText";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-light-blue via-white to-primary-light">
+    <section data-fast-scroll="scroll_to_hero" className="relative overflow-hidden bg-gradient-to-br from-light-blue via-white to-primary-light">
       {/* Subtle background decoration */}
       <div className="absolute right-0 top-0 -z-0 h-[500px] w-[500px] rounded-full bg-primary/[0.03] blur-3xl" />
       <div className="absolute -left-20 bottom-0 -z-0 h-[300px] w-[300px] rounded-full bg-accent/[0.05] blur-3xl" />
@@ -29,6 +29,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-3">
             <Link
               href="/contact"
+              data-fast-goal="hero_cta_clicked"
               className="inline-flex items-center gap-2 rounded-lg bg-primary px-7 py-3.5 text-sm font-semibold text-white shadow-md shadow-primary/20 transition-all hover:bg-primary-dark hover:shadow-lg hover:shadow-primary/25"
             >
               Get in Touch
@@ -38,6 +39,7 @@ export default function Hero() {
             </Link>
             <a
               href="tel:+923424554488"
+              data-fast-goal="hero_phone_clicked"
               className="inline-flex items-center gap-2 rounded-lg border border-border bg-white px-7 py-3.5 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:bg-primary-light"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary">
