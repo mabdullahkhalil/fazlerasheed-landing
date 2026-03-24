@@ -128,7 +128,7 @@ export default function RootLayout({
                 paymentAccepted: "Cash, Bank Transfer",
                 sameAs: [
                   "https://www.linkedin.com/company/fazl-e-rasheed-and-co/",
-                  "https://www.facebook.com/fazlerasheedco/",
+                  "https://www.facebook.com/fazlerasheedandco/",
                   "https://www.youtube.com/@fazlerasheedandcompany",
                 ],
                 areaServed: {

@@ -113,9 +113,42 @@ for (const slug of citySlugs) {
 }
 
 // Equipment pages
-const eqDate = latest("src/app/products/[type]/page.tsx", DATA_FILE);
+const eqDate = latest("src/app/products/[...slug]/page.tsx", DATA_FILE);
 for (const slug of equipmentSlugs) {
   entries.push({ loc: `${BASE}/products/${slug}`, lastmod: eqDate });
+}
+
+// Brand-equipment combo pages
+const beDate = latest("src/app/products/[...slug]/page.tsx", DATA_FILE);
+
+// Build equipment name→slug map from equipmentTypes array
+const eqNameToSlug: Record<string, string> = {};
+const eqSection = catalogSrc.match(/export const equipmentTypes[\s\S]*?^\];/m);
+if (eqSection) {
+  const eqBlocks = eqSection[0].split(/\{\s*slug:/);
+  for (const block of eqBlocks) {
+    const slugM = block.match(/^\s*"([^"]+)"/);
+    const nameM = block.match(/name:\s*"([^"]+)"/);
+    if (slugM && nameM) eqNameToSlug[nameM[1]] = slugM[1];
+  }
+}
+
+// For each brand, extract its equipmentTypes and generate combo URLs
+for (const bSlug of brandSlugs) {
+  const brandBlock = catalogSrc.match(
+    new RegExp(`slug:\\s*"${bSlug}"[\\s\\S]*?equipmentTypes:\\s*\\[([^\\]]+)\\]`),
+  );
+  if (!brandBlock) continue;
+  const eqNames = [...brandBlock[1].matchAll(/"([^"]+)"/g)].map((m) => m[1]);
+  for (const eqName of eqNames) {
+    const eqSlug = eqNameToSlug[eqName];
+    if (eqSlug) {
+      entries.push({
+        loc: `${BASE}/products/${bSlug}/${eqSlug}`,
+        lastmod: beDate,
+      });
+    }
+  }
 }
 
 // ── Write XML ──

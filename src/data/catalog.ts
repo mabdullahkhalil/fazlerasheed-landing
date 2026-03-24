@@ -595,3 +595,14 @@ export function getEquipmentBySlug(slug: string) {
 export function getCityBySlug(slug: string) {
   return cities.find((c) => c.slug === slug);
 }
+
+export function getBrandEquipmentCombos() {
+  const combos: { brand: Brand; equipment: EquipmentType }[] = [];
+  for (const brand of brands) {
+    for (const eqName of brand.equipmentTypes) {
+      const eq = equipmentTypes.find((e) => e.name === eqName);
+      if (eq) combos.push({ brand, equipment: eq });
+    }
+  }
+  return combos;
+}

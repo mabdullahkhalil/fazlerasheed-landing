@@ -244,7 +244,7 @@ export default async function BrandPartsPage({
               .map((eq) => (
                 <Link
                   key={eq.slug}
-                  href={`/products/${eq.slug}`}
+                  href={`/products/${brand.slug}/${eq.slug}`}
                   className="group flex items-center gap-3 rounded-xl border border-border bg-surface px-5 py-4 transition-all hover:border-primary/20 hover:shadow-md hover:shadow-primary/5"
                 >
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-light text-primary transition-colors group-hover:bg-primary group-hover:text-white">

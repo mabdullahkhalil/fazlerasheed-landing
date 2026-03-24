@@ -189,7 +189,7 @@ export default function ContactPage() {
                     </svg>
                   </a>
                   <a
-                    href="https://www.facebook.com/fazlerasheedandcompany"
+                    href="https://www.facebook.com/fazlerasheedandco"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex h-10 w-10 items-center justify-center rounded-lg border border-border bg-surface text-muted transition-all hover:border-primary/30 hover:bg-primary hover:text-white"
