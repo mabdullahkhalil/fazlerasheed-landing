@@ -41,10 +41,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/warehouse-team-forklift-pakistan.webp",
-        width: 1200,
-        height: 630,
-        alt: "Fazlerasheed & Co. - Forklift and warehousing solutions in Pakistan",
+        url: "/images/fr-logo.png",
+        width: 500,
+        height: 500,
+        alt: "Fazlerasheed & Co. logo",
       },
     ],
   },
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     title: "Fazlerasheed & Co. - Battery Operated Forklifts & MHE in Pakistan",
     description:
       "Sale and rental of imported battery operated forklifts, reach trucks, and material handling equipment in Pakistan.",
-    images: ["/images/warehouse-team-forklift-pakistan.webp"],
+    images: ["/images/fr-logo.png"],
   },
   alternates: {
     canonical: "https://fazlerasheed.com",
