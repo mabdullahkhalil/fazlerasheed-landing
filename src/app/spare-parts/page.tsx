@@ -193,7 +193,7 @@ export default function PartsPage() {
             {partCategories.map((cat) => (
               <Link
                 key={cat.name}
-                href={`/parts/category/${cat.slug}`}
+                href={`/spare-parts/category/${cat.slug}`}
                 className="group relative overflow-hidden rounded-2xl border border-border bg-white transition-all hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5"
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-surface">
@@ -245,7 +245,7 @@ export default function PartsPage() {
             {brands.map((brand) => (
               <Link
                 key={brand}
-                href={`/parts/${brand.toLowerCase()}`}
+                href={`/spare-parts/${brand.toLowerCase()}`}
                 className="group flex items-center gap-3 rounded-xl border border-border bg-surface px-5 py-4 transition-all hover:border-primary/20 hover:shadow-md hover:shadow-primary/5"
               >
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-light text-primary transition-colors group-hover:bg-primary group-hover:text-white">

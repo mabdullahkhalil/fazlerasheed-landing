@@ -188,7 +188,7 @@ function EquipmentTypePage({ typeSlug }: { typeSlug: string }) {
             {supportedBrands.map((b) => (
               <Link
                 key={b.slug}
-                href={hasComboPages && b.equipmentTypes.includes(equipment.name) ? `/products/${b.slug}/${equipment.slug}` : `/parts/${b.slug}`}
+                href={hasComboPages && b.equipmentTypes.includes(equipment.name) ? `/products/${b.slug}/${equipment.slug}` : `/spare-parts/${b.slug}`}
                 className="group flex items-center gap-3 rounded-xl border border-border bg-white px-5 py-4 transition-all hover:border-primary/20 hover:shadow-md hover:shadow-primary/5"
               >
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-light text-primary transition-colors group-hover:bg-primary group-hover:text-white">
@@ -445,7 +445,7 @@ function BrandEquipmentPage({ brandSlug, typeSlug }: { brandSlug: string; typeSl
             {categories.map((cat) => (
               <Link
                 key={cat.slug}
-                href={`/parts/category/${cat.slug}`}
+                href={`/spare-parts/category/${cat.slug}`}
                 className="group relative overflow-hidden rounded-2xl border border-border bg-white transition-all hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5"
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-surface">
@@ -525,7 +525,7 @@ function BrandEquipmentPage({ brandSlug, typeSlug }: { brandSlug: string; typeSl
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
             <span className="text-muted">Related:</span>
-            <Link href={`/parts/${brand.slug}`} className="font-semibold text-primary hover:underline">{brand.name} Parts</Link>
+            <Link href={`/spare-parts/${brand.slug}`} className="font-semibold text-primary hover:underline">{brand.name} Parts</Link>
             <span className="text-border">|</span>
             <Link href={`/products/${equipment.slug}`} className="font-semibold text-primary hover:underline">All {equipment.name}</Link>
             <span className="text-border">|</span>

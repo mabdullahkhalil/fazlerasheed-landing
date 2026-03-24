@@ -160,7 +160,7 @@ export default async function CategoryPartsPage({
             {supportedBrands.map((b) => (
               <Link
                 key={b.slug}
-                href={`/parts/${b.slug}`}
+                href={`/spare-parts/${b.slug}`}
                 className="group flex items-center gap-3 rounded-xl border border-border bg-white px-5 py-4 transition-all hover:border-primary/20 hover:shadow-md hover:shadow-primary/5"
               >
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-light text-primary transition-colors group-hover:bg-primary group-hover:text-white">
@@ -192,7 +192,7 @@ export default async function CategoryPartsPage({
               {relatedCats.map((cat) => (
                 <Link
                   key={cat.slug}
-                  href={`/parts/category/${cat.slug}`}
+                  href={`/spare-parts/category/${cat.slug}`}
                   className="group relative overflow-hidden rounded-2xl border border-border bg-white transition-all hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5"
                 >
                   <div className="relative aspect-[4/3] overflow-hidden bg-surface">

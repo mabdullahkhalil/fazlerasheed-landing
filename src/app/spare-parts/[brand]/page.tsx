@@ -178,7 +178,7 @@ export default async function BrandPartsPage({
             {categories.map((cat) => (
               <Link
                 key={cat.slug}
-                href={`/parts/category/${cat.slug}`}
+                href={`/spare-parts/category/${cat.slug}`}
                 className="group relative overflow-hidden rounded-2xl border border-border bg-white transition-all hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5"
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-surface">
@@ -217,7 +217,7 @@ export default async function BrandPartsPage({
               .map((b) => (
                 <Link
                   key={b.slug}
-                  href={`/parts/${b.slug}`}
+                  href={`/spare-parts/${b.slug}`}
                   className="rounded-full border border-border bg-white px-5 py-2 text-sm font-semibold text-foreground shadow-sm transition-all hover:border-primary/30 hover:text-primary"
                 >
                   {b.name}

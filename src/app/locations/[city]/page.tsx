@@ -286,7 +286,7 @@ export default async function CityPage({
             {brands.map((b) => (
               <Link
                 key={b.slug}
-                href={`/parts/${b.slug}`}
+                href={`/spare-parts/${b.slug}`}
                 className="group flex items-center gap-3 rounded-xl border border-border bg-white px-5 py-4 transition-all hover:border-primary/20 hover:shadow-md hover:shadow-primary/5"
               >
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-light text-primary transition-colors group-hover:bg-primary group-hover:text-white">
