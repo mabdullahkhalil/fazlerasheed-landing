@@ -20,6 +20,7 @@ function BrandSet() {
           key={brand.alt}
           className="flex shrink-0 items-center transition-all"
         >
+          
           <Image
             src={brand.src}
             alt={brand.alt}
