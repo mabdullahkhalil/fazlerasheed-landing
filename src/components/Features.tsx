@@ -13,7 +13,7 @@ const features = [
   {
     title: "Traction Batteries in Pakistan",
     description:
-      "Fazlerasheed and Company provides traction batteries, semi traction batteries, backup batteries from European suppliers. We deal in market leading brands including Hawker, Eternity, Sunlight and Trojan.",
+      "Fazlerasheed & Co. provides traction batteries, semi traction batteries, backup batteries from European suppliers. We deal in market leading brands including Hawker, Eternity, Sunlight and Trojan.",
     href: "/batteries",
     image: "/images/traction-batteries-pakistan.png",
     imageAlt: "Traction batteries for forklifts in Pakistan - Hawker Eternity Trojan",

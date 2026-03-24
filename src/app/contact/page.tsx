@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact Us - Fazlerasheed & Co. | Get in Touch",
   description:
-    "Contact Fazlerasheed and Company for forklift rental, spare parts, traction batteries, and maintenance services in Pakistan. Call +92 333 6871970 or email us.",
+    "Contact Fazlerasheed & Co. for forklift rental, spare parts, traction batteries, and maintenance services in Pakistan. Call +92 333 6871970 or email us.",
 };
 
 const contacts = [
@@ -249,14 +249,14 @@ export default function ContactPage() {
           {/* Google Map */}
           <div className="mt-10 overflow-hidden rounded-2xl border border-border shadow-sm">
             <iframe
-              src="https://maps.google.com/maps?q=Fazlerasheed%20and%20Company%20raiwind%20road&t=m&z=15&output=embed&iwloc=near"
+              src="https://maps.google.com/maps?q=Fazlerasheed%20%26%20Co.%20raiwind%20road&t=m&z=15&output=embed&iwloc=near"
               width="100%"
               height="400"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Fazlerasheed and Company location on Google Maps"
+              title="Fazlerasheed &amp; Co. location on Google Maps"
             />
           </div>
         </div>

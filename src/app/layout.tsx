@@ -17,9 +17,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Fazlerasheed and Company - Battery Operated Forklifts, Reach Trucks & MHE in Pakistan",
+  title: "Fazlerasheed & Co. - Battery Operated Forklifts, Reach Trucks & MHE in Pakistan",
   description:
-    "Fazlerasheed and Company deals in sale and rental of imported battery operated forklift, reach truck and material handling equipment in Pakistan. 10+ years experience, 200+ machines fleet.",
+    "Fazlerasheed & Co. deals in sale and rental of imported battery operated forklift, reach truck and material handling equipment in Pakistan. 10+ years experience, 200+ machines fleet.",
   metadataBase: new URL("https://fazlerasheed.com"),
   icons: {
     icon: [
@@ -31,11 +31,11 @@ export const metadata: Metadata = {
   },
   manifest: "/images/favicons/site.webmanifest",
   openGraph: {
-    title: "Fazlerasheed and Company - Battery Operated Forklifts, Reach Trucks & MHE in Pakistan",
+    title: "Fazlerasheed & Co. - Battery Operated Forklifts, Reach Trucks & MHE in Pakistan",
     description:
       "We deal in battery operated forklifts, reach trucks and stackers in Pakistan. Sales, rental, maintenance, spare parts and traction batteries.",
     url: "https://fazlerasheed.com",
-    siteName: "Fazlerasheed and Company",
+    siteName: "Fazlerasheed & Co.",
     locale: "en_US",
     type: "website",
     images: [
@@ -43,13 +43,13 @@ export const metadata: Metadata = {
         url: "/images/warehouse-team-forklift-pakistan.webp",
         width: 1200,
         height: 630,
-        alt: "Fazlerasheed and Company - Forklift and warehousing solutions in Pakistan",
+        alt: "Fazlerasheed & Co. - Forklift and warehousing solutions in Pakistan",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fazlerasheed and Company - Battery Operated Forklifts & MHE in Pakistan",
+    title: "Fazlerasheed & Co. - Battery Operated Forklifts & MHE in Pakistan",
     description:
       "Sale and rental of imported battery operated forklifts, reach trucks, and material handling equipment in Pakistan.",
     images: ["/images/warehouse-team-forklift-pakistan.webp"],
@@ -76,7 +76,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Fazlerasheed and Company",
+              name: "Fazlerasheed & Co.",
               url: "https://fazlerasheed.com",
               logo: "https://fazlerasheed.com/images/logo.png",
               description:

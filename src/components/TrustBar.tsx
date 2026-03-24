@@ -18,7 +18,7 @@ function BrandSet() {
       {brands.map((brand) => (
         <div
           key={brand.alt}
-          className="flex shrink-0 items-center opacity-60 grayscale transition-all hover:opacity-100 hover:grayscale-0"
+          className="flex shrink-0 items-center transition-all"
         >
           <Image
             src={brand.src}

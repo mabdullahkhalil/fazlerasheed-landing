@@ -13,7 +13,13 @@
       "Bash(done)",
       "Bash(bun run:*)",
       "Bash(cd:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "WebFetch(domain:www.tvh.com)",
+      "WebFetch(domain:shop.fazlerasheed.com)",
+      "Bash(cd /Users/muhammadabdullahkhalil/Desktop/fazlerasheed-landing && npx tsc --noEmit 2>&1)",
+      "Bash(tail:*)",
+      "Bash(mkdir:*)",
+      "Bash(ls:*)"
     ]
   }
 }

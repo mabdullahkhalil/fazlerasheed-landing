@@ -100,7 +100,7 @@ Warehouse
                 Rental Services
               </h2>
               <p className="mb-4 text-base leading-relaxed text-muted">
-                Battery-operated equipment rental by Fazl-e-Rasheed and Company
+                Battery-operated equipment rental by Fazlerasheed &amp; Co.
                 is an industry-leading service providing a diverse range of
                 machinery. Catering to food, paper, board, textile,
                 pharmaceutical, and individual consumers, we offer versatile

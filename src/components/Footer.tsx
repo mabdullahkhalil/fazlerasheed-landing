@@ -10,11 +10,40 @@ const businessLinks = [
   { label: "Shop", href: "https://shop.fazlerasheed.com" },
 ];
 
-const serviceLinks = [
-  { label: "Sales & Rental", href: "/services" },
-  { label: "Maintenance", href: "/services" },
-  { label: "Battery Regeneration", href: "/services" },
-  { label: "Wheel Retreading", href: "/services" },
+const equipmentLinks = [
+  { label: "Forklifts", href: "/products/forklifts" },
+  { label: "Reach Trucks", href: "/products/reach-trucks" },
+  { label: "Power Pallets", href: "/products/power-pallets" },
+  { label: "Tow Trucks", href: "/products/tow-trucks" },
+  { label: "Order Pickers", href: "/products/order-pickers" },
+  { label: "Stackers", href: "/products/stackers" },
+  { label: "Hand Pallets", href: "/products/hand-pallets" },
+  { label: "Lithium Batteries", href: "/products/lithium-batteries" },
+  { label: "Lead Acid Batteries", href: "/products/lead-acid-batteries" },
+];
+
+const brandLinks = [
+  { label: "Jungheinrich Parts", href: "/parts/jungheinrich" },
+  { label: "Still Parts", href: "/parts/still" },
+  { label: "Clark Parts", href: "/parts/clark" },
+  { label: "Linde Parts", href: "/parts/linde" },
+  { label: "Crown Parts", href: "/parts/crown" },
+  { label: "Toyota Parts", href: "/parts/toyota" },
+  { label: "BT Parts", href: "/parts/bt" },
+  { label: "Yale Parts", href: "/parts/yale" },
+];
+
+const locationLinks = [
+  { label: "Lahore", href: "/locations/lahore" },
+  { label: "Karachi", href: "/locations/karachi" },
+  { label: "Islamabad", href: "/locations/islamabad" },
+  { label: "Rawalpindi", href: "/locations/rawalpindi" },
+  { label: "Faisalabad", href: "/locations/faisalabad" },
+  { label: "Multan", href: "/locations/multan" },
+  { label: "Sialkot", href: "/locations/sialkot" },
+  { label: "Gujranwala", href: "/locations/gujranwala" },
+  { label: "Peshawar", href: "/locations/peshawar" },
+  { label: "Hyderabad", href: "/locations/hyderabad" },
 ];
 
 const phones = [
@@ -27,13 +56,13 @@ export default function Footer() {
   return (
     <footer className="border-t border-border bg-white">
       <div className="mx-auto max-w-7xl px-4 py-14 lg:px-8">
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
           {/* Column 1 — Company */}
-          <div>
+          <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="mb-5 inline-block">
               <Image
                 src="/images/logo.png"
-                alt="Fazlerasheed and Company"
+                alt="Fazlerasheed &amp; Co."
                 width={250}
                 height={42}
               />
@@ -88,7 +117,7 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5">
               {businessLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link
                     href={link.href}
                     className="text-sm text-muted transition-colors hover:text-primary"
@@ -100,13 +129,13 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3 — Services */}
+          {/* Column 3 — Equipment */}
           <div>
             <h3 className="mb-4 text-sm font-bold uppercase tracking-wider text-foreground font-heading">
-              Services
+              Equipment
             </h3>
             <ul className="space-y-2.5">
-              {serviceLinks.map((link) => (
+              {equipmentLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -119,7 +148,45 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4 — Contact Info */}
+          {/* Column 4 — Parts by Brand */}
+          <div>
+            <h3 className="mb-4 text-sm font-bold uppercase tracking-wider text-foreground font-heading">
+              Parts by Brand
+            </h3>
+            <ul className="space-y-2.5">
+              {brandLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-muted transition-colors hover:text-primary"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 5 — Locations */}
+          <div>
+            <h3 className="mb-4 text-sm font-bold uppercase tracking-wider text-foreground font-heading">
+              Locations
+            </h3>
+            <ul className="space-y-2.5">
+              {locationLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-muted transition-colors hover:text-primary"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 6 — Contact Info */}
           <div>
             <h3 className="mb-4 text-sm font-bold uppercase tracking-wider text-foreground font-heading">
               Contact Info
@@ -174,7 +241,7 @@ export default function Footer() {
       <div className="border-t border-border">
         <div className="mx-auto max-w-7xl px-4 py-5 lg:px-8">
           <p className="text-center text-xs text-muted">
-            &copy; {new Date().getFullYear()} Fazlerasheed and Company. All rights reserved.
+            &copy; {new Date().getFullYear()}{" "} Fazlerasheed &amp; Co. All rights reserved.
           </p>
         </div>
       </div>
