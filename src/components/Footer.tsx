@@ -6,6 +6,7 @@ const businessLinks = [
   { label: "Batteries", href: "/batteries" },
   { label: "Services", href: "/services" },
   { label: "Spare Parts", href: "/spare-parts" },
+  { label: "Blog", href: "/blog" },
   { label: "Contact Us", href: "/contact" },
   { label: "Shop", href: "https://shop.fazlerasheed.com" },
 ];

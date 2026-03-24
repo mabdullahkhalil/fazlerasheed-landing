@@ -5,7 +5,7 @@
  */
 
 import { execSync } from "child_process";
-import { writeFileSync } from "fs";
+import { writeFileSync, readdirSync } from "fs";
 import { resolve } from "path";
 
 const BASE = "https://fazlerasheed.com";
@@ -90,6 +90,7 @@ const corePages = [
   { path: "/spare-parts", file: "src/app/spare-parts/page.tsx" },
   { path: "/contact", file: "src/app/contact/page.tsx" },
   { path: "/ep", file: "src/app/ep/page.tsx" },
+  { path: "/blog", file: "src/app/blog/page.tsx" },
 ];
 for (const p of corePages) {
   entries.push({ loc: `${BASE}${p.path}`, lastmod: gitDate(p.file) });
@@ -150,6 +151,19 @@ for (const bSlug of brandSlugs) {
       });
     }
   }
+}
+
+// Blog posts
+const blogDir = resolve(ROOT, "src/content/blog");
+const blogDate = latest("src/app/blog/[slug]/page.tsx");
+try {
+  const blogFiles = readdirSync(blogDir).filter((f) => f.endsWith(".md"));
+  for (const file of blogFiles) {
+    const slug = file.replace(/\.md$/, "");
+    entries.push({ loc: `${BASE}/blog/${slug}`, lastmod: blogDate });
+  }
+} catch {
+  /* no blog posts */
 }
 
 // ── Write XML ──
