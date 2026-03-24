@@ -157,8 +157,8 @@ export default function RootLayout({
         />
         <Script
           src="https://datafa.st/js/script.js"
-          data-website-id="dfid_sgPBblEEEI2mFI2d0yO65"
-          data-domain="fazlerahseed.com"
+          data-website-id="dfid_g2ojbeIQME0i1UQ8TRicK"
+          data-domain="fazlerasheed.com"
           strategy="afterInteractive"
         />
         <Header />
