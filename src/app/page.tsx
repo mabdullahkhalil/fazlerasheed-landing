@@ -3,6 +3,7 @@ import TrustBar from "@/components/TrustBar";
 import ServiceCards from "@/components/ServiceCards";
 import Features from "@/components/Features";
 import ClientLogos from "@/components/ClientLogos";
+import Partnership from "@/components/Partnership";
 import CTASection from "@/components/CTASection";
 
 export default function Home() {
@@ -11,6 +12,8 @@ export default function Home() {
       <Hero />
       <TrustBar />
       <ServiceCards />
+      <Partnership />
+      
       <Features />
       <ClientLogos />
       <CTASection />

@@ -38,7 +38,7 @@ export default function TrustBar() {
     <section className="border-y border-border/50 bg-white py-8 overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <p className="mb-6 text-center text-xs font-semibold uppercase tracking-widest text-muted">
-          Authorized Dealer of Premium Brands
+          Dealer of Premium Brands
         </p>
       </div>
 
