@@ -32,6 +32,7 @@ const brandLinks = [
   { label: "Toyota Parts", href: "/spare-parts/toyota" },
   { label: "BT Parts", href: "/spare-parts/bt" },
   { label: "Yale Parts", href: "/spare-parts/yale" },
+  { label: "EP Parts", href: "/spare-parts/ep" },
 ];
 
 const locationLinks = [

@@ -132,6 +132,19 @@ export const brands: Brand[] = [
     partCategories: ["Electrical Parts", "Hydraulic Parts", "Tires & Wheels", "Brake Parts", "Filters", "Steering Parts", "Chassis Parts"],
   },
   {
+    slug: "ep",
+    name: "EP",
+    country: "China",
+    image: "/images/ep-machines/forklift-1-5t.webp",
+    logo: "/images/brands/ep.png",
+    description:
+      "Authorized distributor of EP Green lithium-ion forklifts, reach trucks, stackers, and power pallets in Pakistan. New, affordable, zero-emission material handling equipment.",
+    longDescription:
+      "EP Equipment is one of the world's fastest-growing material handling brands, specializing in lithium-ion powered forklifts and warehouse equipment. As the authorized distributor in Pakistan, Fazlerasheed & Co. offers the full EP Green product line — from compact 1-ton counterbalance forklifts to 3-ton heavy-duty models, electric power pallets, stackers, and reach trucks. EP machines feature advanced PMSM (Permanent Magnet Synchronous Motor) technology, integrated lithium-ion battery systems with fast charging, and ergonomic designs for operator comfort. With zero emissions, minimal maintenance requirements, and competitive pricing, EP equipment is an ideal choice for businesses looking to modernize their material handling fleet while reducing total cost of ownership.",
+    equipmentTypes: ["Forklifts", "Power Pallets", "Stackers", "Reach Trucks"],
+    partCategories: ["Electrical Parts", "Hydraulic Parts", "Tires & Wheels", "Brake Parts", "Steering Parts", "Chassis Parts"],
+  },
+  {
     slug: "yale",
     name: "Yale",
     country: "USA",
@@ -158,7 +171,7 @@ export const partCategories: PartCategory[] = [
       "Hydraulic cylinders, pumps, valves, seals, and hoses for forklifts and warehouse equipment. We supply both OEM and aftermarket hydraulic components across Pakistan.",
     longDescription:
       "The hydraulic system is the backbone of every forklift, responsible for lifting, tilting, and steering operations. A malfunctioning hydraulic pump or leaking cylinder can bring your entire operation to a standstill. At Fazlerasheed, we stock a comprehensive range of hydraulic spare parts including lift and tilt cylinders, gear pumps, control valves, hydraulic hose assemblies, O-rings, and seal kits. Our components are compatible with all major forklift brands and are sourced from trusted manufacturers to ensure long service life and reliable performance under heavy loads.",
-    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale"],
+    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale", "EP"],
     relatedCategories: ["steering-parts", "engine-parts", "cooling-parts"],
   },
   {
@@ -170,7 +183,7 @@ export const partCategories: PartCategory[] = [
       "Solid, pneumatic, and cushion tires along with wheel rims and caster wheels for all forklift and warehouse equipment brands.",
     longDescription:
       "Forklift tires are critical for safe operation, stability, and operator comfort. Worn tires reduce traction, increase stopping distances, and can damage warehouse flooring. We supply all types of forklift tires including solid rubber tires for indoor use, pneumatic tires for outdoor and rough terrain, cushion tires for smooth surfaces, and polyurethane load and drive wheels for warehouse equipment. Our inventory includes standard and non-marking compound options for food and pharmaceutical facilities that require clean floor operations.",
-    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale"],
+    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale", "EP"],
     relatedCategories: ["brake-parts", "steering-parts", "chassis-parts"],
   },
   {
@@ -182,7 +195,7 @@ export const partCategories: PartCategory[] = [
       "Steering columns, orbitrol units, tie rods, knuckles, and power steering components for forklifts and material handling equipment.",
     longDescription:
       "Precise steering is essential for safe forklift operation, especially in tight warehouse aisles and high-traffic areas. Steering problems can lead to accidents, product damage, and reduced operator productivity. We provide a full range of steering replacement parts including hydraulic steering units (orbitrol), steering columns and shafts, tie rod ends, king pins, knuckle assemblies, and power steering pumps. All components are tested for fitment and performance, ensuring your equipment handles responsively after installation.",
-    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale"],
+    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale", "EP"],
     relatedCategories: ["hydraulic-parts", "tires-wheels", "chassis-parts"],
   },
   {
@@ -206,7 +219,7 @@ export const partCategories: PartCategory[] = [
       "Brake pads, discs, drums, master cylinders, and parking brake components for safe forklift operations.",
     longDescription:
       "Reliable braking is non-negotiable for forklift safety. Worn brake components increase stopping distances and create serious risks in busy warehouse environments. We supply all types of forklift brake parts including disc brake pads and rotors, drum brake shoes and drums, master and wheel cylinders, brake cables, parking brake assemblies, and hydraulic brake boosters. Our brake components meet or exceed OEM specifications and are available for both wet-disc and dry-disc brake systems used in modern forklift designs.",
-    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale"],
+    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale", "EP"],
     relatedCategories: ["tires-wheels", "hydraulic-parts", "steering-parts"],
   },
   {
@@ -242,7 +255,7 @@ export const partCategories: PartCategory[] = [
       "Controllers, contactors, sensors, wiring harnesses, switches, and electronic modules for electric and IC forklifts.",
     longDescription:
       "Modern forklifts rely heavily on sophisticated electrical and electronic systems for motor control, instrumentation, safety interlocks, and diagnostics. Electrical faults can be complex to diagnose and costly when the wrong part is installed. We supply a wide range of electrical components including AC and DC motor controllers, power contactors, main fuses and fuse holders, wiring harnesses, key switches and ignition modules, instrument clusters, proximity sensors, and CAN-bus communication modules. Our technical team can assist with part identification using your equipment model and error codes.",
-    brands: ["Jungheinrich", "Still", "Crown", "Linde", "Toyota", "BT", "Yale", "Clark"],
+    brands: ["Jungheinrich", "Still", "Crown", "Linde", "Toyota", "BT", "Yale", "Clark", "EP"],
     relatedCategories: ["engine-parts", "transmission-parts", "cooling-parts"],
   },
   {
@@ -254,7 +267,7 @@ export const partCategories: PartCategory[] = [
       "Mast sections, fork carriages, counterweights, overhead guards, and structural body components for forklifts.",
     longDescription:
       "The chassis and structural components of a forklift provide the framework that supports all other systems. Damage from collisions, overloading, or corrosion can compromise equipment safety and load capacity. We supply chassis and structural parts including mast channels and rails, fork carriages and mounting brackets, lift chains and sheaves, counterweight assemblies, overhead guard frames, side panels, floor plates, and mounting hardware. All structural parts are inspected for dimensional accuracy and material quality before dispatch.",
-    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale"],
+    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale", "EP"],
     relatedCategories: ["hydraulic-parts", "tires-wheels", "steering-parts"],
   },
   {
@@ -313,7 +326,7 @@ export const equipmentTypes: EquipmentType[] = [
       { label: "Power Source", value: "Electric / Diesel / LPG" },
       { label: "Drive Type", value: "AC Motor / IC Engine" },
     ],
-    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale"],
+    brands: ["Jungheinrich", "Still", "Clark", "Linde", "Crown", "Toyota", "BT", "Yale", "EP"],
   },
   {
     slug: "reach-trucks",
@@ -330,7 +343,7 @@ export const equipmentTypes: EquipmentType[] = [
       { label: "Power Source", value: "Electric (Battery)" },
       { label: "Aisle Width", value: "2.6 - 3.0 meters" },
     ],
-    brands: ["Jungheinrich", "Still", "Linde", "Crown", "BT", "Yale"],
+    brands: ["Jungheinrich", "Still", "Linde", "Crown", "BT", "Yale", "EP"],
   },
   {
     slug: "power-pallets",
@@ -347,7 +360,7 @@ export const equipmentTypes: EquipmentType[] = [
       { label: "Power Source", value: "Electric (Battery)" },
       { label: "Type", value: "Walkie / Rider" },
     ],
-    brands: ["Jungheinrich", "Still", "Linde", "Toyota", "BT", "Yale", "Crown"],
+    brands: ["Jungheinrich", "Still", "Linde", "Toyota", "BT", "Yale", "Crown", "EP"],
   },
   {
     slug: "tow-trucks",
@@ -398,7 +411,7 @@ export const equipmentTypes: EquipmentType[] = [
       { label: "Power Source", value: "Electric (Battery)" },
       { label: "Type", value: "Straddle / Counterbalanced" },
     ],
-    brands: ["Jungheinrich", "Still", "Linde", "Crown", "BT", "Yale"],
+    brands: ["Jungheinrich", "Still", "Linde", "Crown", "BT", "Yale", "EP"],
   },
   {
     slug: "hand-pallets",

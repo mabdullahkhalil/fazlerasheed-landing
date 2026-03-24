@@ -32,7 +32,9 @@
       "Bash(find src:*)",
       "Bash(convert public/images/ep-partnership.webp -trim -fuzz 10% +repage public/images/ep-partnership-trimmed.webp 2>&1 || magick public/images/ep-partnership.webp -trim -fuzz 10% +repage public/images/ep-partnership-trimmed.webp 2>&1)",
       "Bash(# Resize to 800x420 for card display and optimize for f in public/images/ep-machines/*.webp; do sips -z 420 800 \"\"$f\"\" --out \"\"$f\"\" done echo \"\"Resized. Checking sizes:\"\" ls -lh public/images/ep-machines/*.webp)",
-      "Bash(bun add:*)"
+      "Bash(bun add:*)",
+      "WebFetch(domain:www.epequip.com)",
+      "Bash(npx tsx:*)"
     ]
   }
 }
