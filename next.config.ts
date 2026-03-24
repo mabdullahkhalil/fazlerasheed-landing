@@ -183,6 +183,17 @@ const nextConfig: NextConfig = {
       { source: "/feed", destination: "/blog", permanent: true },
       { source: "/feed/", destination: "/blog", permanent: true },
       { source: "/sitemap_index.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/wp-sitemap.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/post-sitemap.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/page-sitemap.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/product-sitemap.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/category-sitemap.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/product_cat-sitemap.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/wp-sitemap-posts-post-1.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/wp-sitemap-posts-page-1.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/wp-sitemap-posts-product-1.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/wp-sitemap-taxonomies-category-1.xml", destination: "/sitemap.xml", permanent: true },
+      { source: "/wp-sitemap-taxonomies-product_cat-1.xml", destination: "/sitemap.xml", permanent: true },
 
       // ═══════════════════════════════════════════════
       // 8. TRAILING SLASH CLEANUP for key pages
