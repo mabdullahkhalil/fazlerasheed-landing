@@ -108,10 +108,15 @@ Warehouse
                 solutions from short-term to long-term needs.
               </p>
               <p className="mb-8 text-base leading-relaxed text-muted">
-                We offer Fork Lifters, Reach Trucks, Power Pallets, Stackers,
-                Tow Trucks, and Order Pickers. Our flexible rental options
-                support seasonal peaks, stock-takes, backlogs, and special
-                projects.
+                We offer{" "}
+                <Link href="/products/forklifts" className="font-semibold text-primary hover:underline">Fork Lifters</Link>,{" "}
+                <Link href="/products/reach-trucks" className="font-semibold text-primary hover:underline">Reach Trucks</Link>,{" "}
+                <Link href="/products/power-pallets" className="font-semibold text-primary hover:underline">Power Pallets</Link>,{" "}
+                <Link href="/products/stackers" className="font-semibold text-primary hover:underline">Stackers</Link>,{" "}
+                <Link href="/products/tow-trucks" className="font-semibold text-primary hover:underline">Tow Trucks</Link>, and{" "}
+                <Link href="/products/order-pickers" className="font-semibold text-primary hover:underline">Order Pickers</Link>.
+                Our flexible rental options support seasonal peaks, stock-takes,
+                backlogs, and special projects.
               </p>
 
               <div className="mb-8 grid grid-cols-2 gap-3">
@@ -157,7 +162,8 @@ Warehouse
               <p className="mb-4 text-base leading-relaxed text-muted">
                 We offer a variety of forklift service options through our team
                 of trained professionals. We believe it is important to provide
-                quality service with trained engineers, quality spare parts,
+                quality service with trained engineers, quality{" "}
+                <Link href="/parts" className="font-semibold text-primary hover:underline">spare parts</Link>,
                 first-call fix rate and fast response time.
               </p>
               <p className="mb-8 text-base leading-relaxed text-muted">
@@ -232,8 +238,9 @@ Warehouse
               </h2>
               <p className="mb-4 text-base leading-relaxed text-muted">
                 Battery refurbishment removes sulphation through electrical high
-                frequency pulsation, restoring battery capacity up to 80% and
-                enabling the reuse of old and sulphated batteries.
+                frequency pulsation, restoring{" "}
+                <Link href="/batteries" className="font-semibold text-primary hover:underline">battery</Link>{" "}
+                capacity up to 80% and enabling the reuse of old and sulphated batteries.
               </p>
               <p className="mb-8 text-base leading-relaxed text-muted">
                 Annual preventative maintenance is strongly recommended to
@@ -359,9 +366,11 @@ Warehouse
                 competent in electric golf carts and similar vehicles.
               </p>
               <p className="mb-8 text-base leading-relaxed text-muted">
-                We provide Trojan and Eternity semi-traction long life batteries
-                for these carts. We contract regular maintenance, supply all
-                parts, motors, and electronic components. We use imported
+                We provide{" "}
+                <Link href="/batteries" className="font-semibold text-primary hover:underline">Trojan and Eternity semi-traction batteries</Link>{" "}
+                for these carts. We contract regular maintenance, supply all{" "}
+                <Link href="/parts" className="font-semibold text-primary hover:underline">parts</Link>,
+                motors, and electronic components. We use imported
                 European parts for all battery-powered machines.
               </p>
 
@@ -386,6 +395,24 @@ Warehouse
                 </svg>
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Related Pages */}
+      <section className="border-t border-border bg-surface py-10">
+        <div className="mx-auto max-w-7xl px-4 lg:px-8">
+          <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
+            <span className="text-muted">Explore more:</span>
+            <Link href="/products" className="font-semibold text-primary hover:underline">All Equipment</Link>
+            <span className="text-border">|</span>
+            <Link href="/batteries" className="font-semibold text-primary hover:underline">Traction Batteries</Link>
+            <span className="text-border">|</span>
+            <Link href="/parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
+            <span className="text-border">|</span>
+            <Link href="/parts/category/tires-wheels" className="font-semibold text-primary hover:underline">Tires & Wheels</Link>
+            <span className="text-border">|</span>
+            <Link href="/parts/category/electrical-parts" className="font-semibold text-primary hover:underline">Electrical Parts</Link>
           </div>
         </div>
       </section>

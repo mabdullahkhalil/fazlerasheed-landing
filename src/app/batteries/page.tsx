@@ -296,6 +296,52 @@ export default function BatteriesPage() {
         </div>
       </section>
 
+      {/* Equipment & Related Links */}
+      <section className="bg-surface py-16 lg:py-20">
+        <div className="mx-auto max-w-7xl px-4 lg:px-8">
+          <div className="mb-10 text-center">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
+              Compatible Equipment
+            </p>
+            <h2 className="text-2xl font-bold text-foreground font-heading md:text-3xl">
+              Equipment Powered by Our Batteries
+            </h2>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {[
+              { label: "Forklifts", href: "/products/forklifts" },
+              { label: "Reach Trucks", href: "/products/reach-trucks" },
+              { label: "Power Pallets", href: "/products/power-pallets" },
+              { label: "Stackers", href: "/products/stackers" },
+              { label: "Tow Trucks", href: "/products/tow-trucks" },
+              { label: "Order Pickers", href: "/products/order-pickers" },
+              { label: "Lithium Batteries", href: "/products/lithium-batteries" },
+              { label: "Lead Acid Batteries", href: "/products/lead-acid-batteries" },
+            ].map((item) => (
+              <Link
+                key={item.label}
+                href={item.href}
+                className="group flex items-center gap-3 rounded-xl border border-border bg-white px-5 py-4 transition-all hover:border-primary/20 hover:shadow-md hover:shadow-primary/5"
+              >
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-light text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
+                </div>
+                <span className="text-sm font-bold text-foreground">{item.label}</span>
+              </Link>
+            ))}
+          </div>
+
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-4 text-sm">
+            <span className="text-muted">Related:</span>
+            <Link href="/services" className="font-semibold text-primary hover:underline">Battery Regeneration Service</Link>
+            <span className="text-border">|</span>
+            <Link href="/products" className="font-semibold text-primary hover:underline">All Equipment</Link>
+            <span className="text-border">|</span>
+            <Link href="/parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="relative overflow-hidden bg-gradient-to-br from-primary to-primary-dark py-20 lg:py-24">
         <div className="absolute -left-20 -top-20 h-80 w-80 rounded-full bg-white/5 blur-3xl" />

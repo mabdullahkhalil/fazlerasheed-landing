@@ -202,6 +202,22 @@ export default async function EquipmentTypePage({
         </div>
       </section>
 
+      {/* Related Pages */}
+      <section className="border-t border-border bg-surface py-10">
+        <div className="mx-auto max-w-7xl px-4 lg:px-8">
+          <div className="flex flex-wrap items-center justify-center gap-4 text-sm">
+            <span className="text-muted">Related:</span>
+            <Link href="/batteries" className="font-semibold text-primary hover:underline">Traction Batteries</Link>
+            <span className="text-border">|</span>
+            <Link href="/services" className="font-semibold text-primary hover:underline">Rental & Maintenance</Link>
+            <span className="text-border">|</span>
+            <Link href="/parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
+            <span className="text-border">|</span>
+            <Link href="/parts/category/tires-wheels" className="font-semibold text-primary hover:underline">Tires & Wheels</Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-gradient-to-br from-primary to-primary-dark py-16 lg:py-20">
         <div className="mx-auto max-w-3xl px-4 text-center lg:px-8">

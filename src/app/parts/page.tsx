@@ -22,78 +22,18 @@ const brands = [
 ];
 
 const partCategories = [
-  {
-    name: "Hydraulic Parts",
-    image: "/images/parts/hydraulic-parts-forklift.jpg",
-    alt: "Forklift hydraulic cylinders pumps and valves",
-    href: "https://shop.fazlerasheed.com",
-  },
-  {
-    name: "Tires & Wheels",
-    image: "/images/parts/forklift-tires-wheels.jpg",
-    alt: "Forklift solid tires and wheels replacement",
-    href: "https://shop.fazlerasheed.com",
-  },
-  {
-    name: "Steering Parts",
-    image: "/images/parts/forklift-steering-parts.jpg",
-    alt: "Forklift steering column and steering parts",
-    href: "https://shop.fazlerasheed.com",
-  },
-  {
-    name: "Transmission Parts",
-    image: "/images/parts/forklift-transmission-parts.jpg",
-    alt: "Forklift transmission gears and drive parts",
-    href: "https://shop.fazlerasheed.com",
-  },
-  {
-    name: "Brake Parts",
-    image: "/images/parts/forklift-brake-parts.jpg",
-    alt: "Forklift brake pads discs and brake assembly",
-    href: "https://shop.fazlerasheed.com",
-  },
-  {
-    name: "Filters",
-    image: "/images/parts/forklift-filters.jpg",
-    alt: "Forklift oil air and hydraulic filters",
-    href: "https://shop.fazlerasheed.com",
-  },
-  {
-    name: "Engine Parts",
-    image: "/images/parts/forklift-engine-parts.jpg",
-    alt: "Forklift engine components and motor parts",
-    href: "https://shop.fazlerasheed.com",
-  },
-  {
-    name: "Electrical Parts",
-    image: "/images/parts/forklift-electrical-parts.jpg",
-    alt: "Forklift electrical wiring controllers and sensors",
-    href: "https://shop.fazlerasheed.com",
-  },
-  {
-    name: "Chassis Parts",
-    image: "/images/parts/forklift-chassis-parts.jpg",
-    alt: "Forklift chassis frame and structural parts",
-    href: "https://shop.fazlerasheed.com",
-  },
-  {
-    name: "Cooling Parts",
-    image: "/images/parts/forklift-cooling-parts.jpg",
-    alt: "Forklift radiators fans and cooling system parts",
-    href: "https://shop.fazlerasheed.com",
-  },
-  {
-    name: "Attachments",
-    image: "/images/parts/forklift-attachments.jpg",
-    alt: "Forklift attachments clamps and fork extensions",
-    href: "https://shop.fazlerasheed.com",
-  },
-  {
-    name: "Fuel Parts",
-    image: "/images/parts/forklift-fuel-parts.jpg",
-    alt: "Forklift fuel system pumps and injector parts",
-    href: "https://shop.fazlerasheed.com",
-  },
+  { name: "Hydraulic Parts", slug: "hydraulic-parts", image: "/images/parts/hydraulic-parts-forklift.jpg", alt: "Forklift hydraulic cylinders pumps and valves" },
+  { name: "Tires & Wheels", slug: "tires-wheels", image: "/images/parts/forklift-tires-wheels.jpg", alt: "Forklift solid tires and wheels replacement" },
+  { name: "Steering Parts", slug: "steering-parts", image: "/images/parts/forklift-steering-parts.jpg", alt: "Forklift steering column and steering parts" },
+  { name: "Transmission Parts", slug: "transmission-parts", image: "/images/parts/forklift-transmission-parts.jpg", alt: "Forklift transmission gears and drive parts" },
+  { name: "Brake Parts", slug: "brake-parts", image: "/images/parts/forklift-brake-parts.jpg", alt: "Forklift brake pads discs and brake assembly" },
+  { name: "Filters", slug: "filters", image: "/images/parts/forklift-filters.jpg", alt: "Forklift oil air and hydraulic filters" },
+  { name: "Engine Parts", slug: "engine-parts", image: "/images/parts/forklift-engine-parts.jpg", alt: "Forklift engine components and motor parts" },
+  { name: "Electrical Parts", slug: "electrical-parts", image: "/images/parts/forklift-electrical-parts.jpg", alt: "Forklift electrical wiring controllers and sensors" },
+  { name: "Chassis Parts", slug: "chassis-parts", image: "/images/parts/forklift-chassis-parts.jpg", alt: "Forklift chassis frame and structural parts" },
+  { name: "Cooling Parts", slug: "cooling-parts", image: "/images/parts/forklift-cooling-parts.jpg", alt: "Forklift radiators fans and cooling system parts" },
+  { name: "Attachments", slug: "attachments", image: "/images/parts/forklift-attachments.jpg", alt: "Forklift attachments clamps and fork extensions" },
+  { name: "Fuel Parts", slug: "fuel-parts", image: "/images/parts/forklift-fuel-parts.jpg", alt: "Forklift fuel system pumps and injector parts" },
 ];
 
 export default function PartsPage() {
@@ -253,9 +193,7 @@ export default function PartsPage() {
             {partCategories.map((cat) => (
               <Link
                 key={cat.name}
-                href={cat.href}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={`/parts/category/${cat.slug}`}
                 className="group relative overflow-hidden rounded-2xl border border-border bg-white transition-all hover:border-primary/20 hover:shadow-lg hover:shadow-primary/5"
               >
                 <div className="relative aspect-[4/3] overflow-hidden bg-surface">
@@ -288,6 +226,43 @@ export default function PartsPage() {
                 </div>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Parts by Brand */}
+      <section className="bg-white py-16 lg:py-20">
+        <div className="mx-auto max-w-7xl px-4 lg:px-8">
+          <div className="mb-10 text-center">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
+              Browse by Brand
+            </p>
+            <h2 className="text-2xl font-bold text-foreground font-heading md:text-3xl">
+              Spare Parts for All Leading Brands
+            </h2>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-4">
+            {brands.map((brand) => (
+              <Link
+                key={brand}
+                href={`/parts/${brand.toLowerCase()}`}
+                className="group flex items-center gap-3 rounded-xl border border-border bg-surface px-5 py-4 transition-all hover:border-primary/20 hover:shadow-md hover:shadow-primary/5"
+              >
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-light text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
+                </div>
+                <span className="text-sm font-bold text-foreground">{brand} Parts</span>
+              </Link>
+            ))}
+          </div>
+
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-4 text-sm">
+            <span className="text-muted">Related:</span>
+            <Link href="/products" className="font-semibold text-primary hover:underline">View Equipment</Link>
+            <span className="text-border">|</span>
+            <Link href="/services" className="font-semibold text-primary hover:underline">Maintenance Services</Link>
+            <span className="text-border">|</span>
+            <Link href="/batteries" className="font-semibold text-primary hover:underline">Traction Batteries</Link>
           </div>
         </div>
       </section>

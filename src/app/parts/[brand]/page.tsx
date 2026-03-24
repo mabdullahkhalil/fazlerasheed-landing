@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { brands, partCategories, getBrandBySlug } from "@/data/catalog";
+import { brands, partCategories, equipmentTypes, getBrandBySlug } from "@/data/catalog";
 
 export function generateStaticParams() {
   return brands.map((b) => ({ brand: b.slug }));
@@ -223,6 +223,45 @@ export default async function BrandPartsPage({
                   {b.name}
                 </Link>
               ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Equipment types for this brand */}
+      <section className="bg-white py-16 lg:py-20">
+        <div className="mx-auto max-w-7xl px-4 lg:px-8">
+          <div className="mb-10 text-center">
+            <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
+              {brand.name} Equipment
+            </p>
+            <h2 className="text-2xl font-bold text-foreground font-heading md:text-3xl">
+              Equipment Types by {brand.name}
+            </h2>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {equipmentTypes
+              .filter((eq) => eq.brands.includes(brand.name))
+              .map((eq) => (
+                <Link
+                  key={eq.slug}
+                  href={`/products/${eq.slug}`}
+                  className="group flex items-center gap-3 rounded-xl border border-border bg-surface px-5 py-4 transition-all hover:border-primary/20 hover:shadow-md hover:shadow-primary/5"
+                >
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-light text-primary transition-colors group-hover:bg-primary group-hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
+                  </div>
+                  <span className="text-sm font-bold text-foreground">{eq.name}</span>
+                </Link>
+              ))}
+          </div>
+
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-4 text-sm">
+            <span className="text-muted">Related:</span>
+            <Link href="/batteries" className="font-semibold text-primary hover:underline">Traction Batteries</Link>
+            <span className="text-border">|</span>
+            <Link href="/services" className="font-semibold text-primary hover:underline">Maintenance Services</Link>
+            <span className="text-border">|</span>
+            <Link href="/products" className="font-semibold text-primary hover:underline">All Equipment</Link>
           </div>
         </div>
       </section>
