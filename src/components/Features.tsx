@@ -7,32 +7,32 @@ const features = [
     description:
       "Our extensive range includes battery-operated machines ranging from 1 ton to 5.5 tons, with electric machines that come with various attachments to enhance their functionality.",
     href: "/services/forklift-sales",
-    image: "/images/client-8.png",
-    imageAlt: "Forklift sales and rental illustration",
+    image: "/images/forklift-sales-rental-pakistan.png",
+    imageAlt: "Battery operated forklift sales and rental in Pakistan",
   },
   {
     title: "Traction Batteries in Pakistan",
     description:
       "Fazlerasheed and Company provides traction batteries, semi traction batteries, backup batteries from European suppliers. We deal in market leading brands including Hawker, Eternity, Sunlight and Trojan.",
     href: "/batteries",
-    image: "/images/client-9.png",
-    imageAlt: "Traction batteries illustration",
+    image: "/images/traction-batteries-pakistan.png",
+    imageAlt: "Traction batteries for forklifts in Pakistan - Hawker Eternity Trojan",
   },
   {
     title: "Forklift Spare Parts",
     description:
       "We provide the best quality genuine spare parts of all brands including original, OEM parts, wheels, and solid tires. We are the distributors of world top parts supplier i.e. TVH.",
     href: "/parts",
-    image: "/images/client-10.png",
-    imageAlt: "Forklift spare parts illustration",
+    image: "/images/forklift-spare-parts-pakistan.png",
+    imageAlt: "Genuine OEM forklift spare parts supplier in Pakistan",
   },
   {
     title: "FR Care and Maintenance",
     description:
       "We boast cutting-edge equipment that facilitates the maintenance of all types of machines. Our clients entrust us with their malfunctioning machines, which we expertly refurbish and recondition.",
     href: "/services/maintenance",
-    image: "/images/client-11.png",
-    imageAlt: "Forklift care and maintenance illustration",
+    image: "/images/forklift-maintenance-service.png",
+    imageAlt: "Forklift care maintenance and reconditioning service",
   },
 ];
 

@@ -14,8 +14,8 @@ export default function ServicesPage() {
       {/* Hero */}
       <section className="relative">
         <Image
-          src="/images/hero.webp"
-          alt="Fazlerasheed warehouse services"
+          src="/images/warehouse-team-forklift-pakistan.webp"
+          alt="Fazlerasheed warehouse services - rental maintenance and battery regeneration in Pakistan"
           fill
           priority
           className="object-cover"
@@ -89,8 +89,8 @@ export default function ServicesPage() {
             <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-light to-light-blue p-8 lg:p-12">
               <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-primary/5 blur-3xl" />
               <Image
-                src="/images/services-rental.webp"
-                alt="Material handling equipment rental services"
+                src="/images/forklift-rental-service-pakistan.webp"
+                alt="Battery operated forklift and reach truck rental services in Pakistan"
                 width={580}
                 height={332}
                 className="relative mx-auto rounded-xl object-cover transition-transform duration-500 group-hover:scale-[1.03]"
@@ -201,8 +201,8 @@ export default function ServicesPage() {
             <div className="group order-1 relative overflow-hidden rounded-3xl bg-gradient-to-br from-light-blue to-primary-light p-8 lg:order-2 lg:p-12">
               <div className="absolute left-0 bottom-0 h-40 w-40 rounded-full bg-accent/10 blur-3xl" />
               <Image
-                src="/images/services-maintenance.webp"
-                alt="Forklift maintenance and repair services"
+                src="/images/forklift-maintenance-repair.webp"
+                alt="Forklift planned maintenance and repair service in Pakistan"
                 width={580}
                 height={332}
                 className="relative mx-auto rounded-xl object-cover transition-transform duration-500 group-hover:scale-[1.03]"
@@ -219,8 +219,8 @@ export default function ServicesPage() {
             <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-light to-light-blue p-8 lg:p-12">
               <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-primary/5 blur-3xl" />
               <Image
-                src="/images/services-battery-regen.webp"
-                alt="Battery regeneration and refurbishment service"
+                src="/images/battery-regeneration-refurbishment.webp"
+                alt="Forklift battery regeneration and refurbishment service in Pakistan"
                 width={580}
                 height={580}
                 className="relative mx-auto rounded-xl object-cover transition-transform duration-500 group-hover:scale-[1.03]"
@@ -324,8 +324,8 @@ export default function ServicesPage() {
             <div className="group order-1 relative overflow-hidden rounded-3xl bg-gradient-to-br from-light-blue to-primary-light p-8 lg:order-2 lg:p-12">
               <div className="absolute left-0 bottom-0 h-40 w-40 rounded-full bg-accent/10 blur-3xl" />
               <Image
-                src="/images/services-retreading.webp"
-                alt="Wheel and castor retreading service"
+                src="/images/wheel-castor-retreading-service.webp"
+                alt="Forklift wheel castor and roller retreading service"
                 width={580}
                 height={332}
                 className="relative mx-auto rounded-xl object-cover transition-transform duration-500 group-hover:scale-[1.03]"
@@ -342,8 +342,8 @@ export default function ServicesPage() {
             <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-light to-light-blue p-8 lg:p-12">
               <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-primary/5 blur-3xl" />
               <Image
-                src="/images/services-golfcarts.webp"
-                alt="Golf cart battery replacement and maintenance"
+                src="/images/golf-cart-maintenance-repair.webp"
+                alt="Golf cart battery replacement parts and maintenance service"
                 width={580}
                 height={332}
                 className="relative mx-auto rounded-xl object-cover transition-transform duration-500 group-hover:scale-[1.03]"

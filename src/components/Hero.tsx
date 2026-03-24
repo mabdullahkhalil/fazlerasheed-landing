@@ -69,8 +69,8 @@ export default function Hero() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-primary/10 to-accent/10 blur-2xl" />
             <Image
-              src="/images/hero.webp"
-              alt="Fazlerasheed and Company team in warehouse with battery operated forklifts"
+              src="/images/warehouse-team-forklift-pakistan.webp"
+              alt="Fazlerasheed and Company warehouse team with battery operated forklifts in Pakistan"
               width={600}
               height={400}
               priority

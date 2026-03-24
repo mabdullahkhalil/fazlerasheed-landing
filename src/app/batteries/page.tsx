@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 };
 
 const batteryBrands = [
-  { name: "Eternity", logo: "/images/brands/eternity.png" },
-  { name: "Hawker", logo: "/images/brands/hawker.png" },
+  { name: "Eternity", logo: "/images/brands/eternity.png", alt: "Eternity Technologies industrial batteries brand" },
+  { name: "Hawker", logo: "/images/brands/hawker.png", alt: "Hawker traction batteries brand" },
 ];
 
 const eternityApplications = [
@@ -37,8 +37,8 @@ export default function BatteriesPage() {
       {/* Hero */}
       <section className="relative">
         <Image
-          src="/images/hero.webp"
-          alt="Fazlerasheed warehouse with traction batteries"
+          src="/images/warehouse-team-forklift-pakistan.webp"
+          alt="Industrial traction batteries for material handling equipment in Pakistan"
           fill
           priority
           className="object-cover"
@@ -91,7 +91,7 @@ export default function BatteriesPage() {
               <Image
                 key={brand.name}
                 src={brand.logo}
-                alt={brand.name}
+                alt={brand.alt}
                 width={120}
                 height={40}
                 className="h-8 w-auto object-contain opacity-70 transition-opacity hover:opacity-100"
@@ -109,8 +109,8 @@ export default function BatteriesPage() {
             <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-light to-light-blue p-8 lg:p-12">
               <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-primary/5 blur-3xl" />
               <Image
-                src="/images/batteries-eternity.webp"
-                alt="Eternity traction batteries for forklifts in Pakistan"
+                src="/images/eternity-traction-batteries-pakistan.webp"
+                alt="Eternity traction batteries for forklifts and warehousing equipment in Pakistan"
                 width={580}
                 height={400}
                 className="relative mx-auto rounded-xl object-contain transition-transform duration-500 group-hover:scale-[1.03]"
@@ -218,8 +218,8 @@ export default function BatteriesPage() {
             <div className="group order-1 relative overflow-hidden rounded-3xl bg-gradient-to-br from-light-blue to-primary-light p-8 lg:order-2 lg:p-12">
               <div className="absolute left-0 bottom-0 h-40 w-40 rounded-full bg-accent/10 blur-3xl" />
               <Image
-                src="/images/batteries-trojan.jpeg"
-                alt="Trojan deep-cycle traction batteries"
+                src="/images/trojan-deep-cycle-batteries.jpeg"
+                alt="Trojan deep-cycle batteries for forklifts and industrial equipment"
                 width={580}
                 height={400}
                 className="relative mx-auto rounded-xl object-contain transition-transform duration-500 group-hover:scale-[1.03]"

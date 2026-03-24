@@ -23,62 +23,74 @@ const brands = [
 const partCategories = [
   {
     name: "Hydraulic Parts",
-    image: "/images/parts/parts-hydraulic.jpg",
+    image: "/images/parts/hydraulic-parts-forklift.jpg",
+    alt: "Forklift hydraulic cylinders pumps and valves",
     href: "https://shop.fazlerasheed.com",
   },
   {
     name: "Tires & Wheels",
-    image: "/images/parts/parts-tires.jpg",
+    image: "/images/parts/forklift-tires-wheels.jpg",
+    alt: "Forklift solid tires and wheels replacement",
     href: "https://shop.fazlerasheed.com",
   },
   {
     name: "Steering Parts",
-    image: "/images/parts/parts-steering.jpg",
+    image: "/images/parts/forklift-steering-parts.jpg",
+    alt: "Forklift steering column and steering parts",
     href: "https://shop.fazlerasheed.com",
   },
   {
     name: "Transmission Parts",
-    image: "/images/parts/parts-transmission.jpg",
+    image: "/images/parts/forklift-transmission-parts.jpg",
+    alt: "Forklift transmission gears and drive parts",
     href: "https://shop.fazlerasheed.com",
   },
   {
     name: "Brake Parts",
-    image: "/images/parts/parts-brake.jpg",
+    image: "/images/parts/forklift-brake-parts.jpg",
+    alt: "Forklift brake pads discs and brake assembly",
     href: "https://shop.fazlerasheed.com",
   },
   {
     name: "Filters",
-    image: "/images/parts/parts-filters.jpg",
+    image: "/images/parts/forklift-filters.jpg",
+    alt: "Forklift oil air and hydraulic filters",
     href: "https://shop.fazlerasheed.com",
   },
   {
     name: "Engine Parts",
-    image: "/images/parts/parts-engine.jpg",
+    image: "/images/parts/forklift-engine-parts.jpg",
+    alt: "Forklift engine components and motor parts",
     href: "https://shop.fazlerasheed.com",
   },
   {
     name: "Electrical Parts",
-    image: "/images/parts/parts-electrical.jpg",
+    image: "/images/parts/forklift-electrical-parts.jpg",
+    alt: "Forklift electrical wiring controllers and sensors",
     href: "https://shop.fazlerasheed.com",
   },
   {
     name: "Chassis Parts",
-    image: "/images/parts/parts-chassis.jpg",
+    image: "/images/parts/forklift-chassis-parts.jpg",
+    alt: "Forklift chassis frame and structural parts",
     href: "https://shop.fazlerasheed.com",
   },
   {
     name: "Cooling Parts",
-    image: "/images/parts/parts-cooling.jpg",
+    image: "/images/parts/forklift-cooling-parts.jpg",
+    alt: "Forklift radiators fans and cooling system parts",
     href: "https://shop.fazlerasheed.com",
   },
   {
     name: "Attachments",
-    image: "/images/parts/parts-attachments.jpg",
+    image: "/images/parts/forklift-attachments.jpg",
+    alt: "Forklift attachments clamps and fork extensions",
     href: "https://shop.fazlerasheed.com",
   },
   {
     name: "Fuel Parts",
-    image: "/images/parts/parts-fuel.jpg",
+    image: "/images/parts/forklift-fuel-parts.jpg",
+    alt: "Forklift fuel system pumps and injector parts",
     href: "https://shop.fazlerasheed.com",
   },
 ];
@@ -89,8 +101,8 @@ export default function PartsPage() {
       {/* Hero */}
       <section className="relative">
         <Image
-          src="/images/hero.webp"
-          alt="Fazlerasheed spare parts warehouse"
+          src="/images/warehouse-team-forklift-pakistan.webp"
+          alt="Genuine and OEM forklift spare parts delivered across Pakistan"
           fill
           priority
           className="object-cover"
@@ -158,8 +170,8 @@ export default function PartsPage() {
             <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-light to-light-blue p-8 lg:p-12">
               <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-primary/5 blur-3xl" />
               <Image
-                src="/images/parts/parts-hero.jpeg"
-                alt="Forklift spare parts collection"
+                src="/images/parts/forklift-spare-parts-collection.jpeg"
+                alt="Forklift spare parts collection - hydraulic steering electrical brake parts"
                 width={580}
                 height={530}
                 className="relative mx-auto rounded-xl object-contain transition-transform duration-500 group-hover:scale-[1.03]"
@@ -276,7 +288,7 @@ export default function PartsPage() {
                 <div className="relative aspect-[4/3] overflow-hidden bg-surface">
                   <Image
                     src={cat.image}
-                    alt={cat.name}
+                    alt={cat.alt}
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                   />

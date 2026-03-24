@@ -25,8 +25,8 @@ export default function ProductsPage() {
       <section className="relative">
         {/* Background image */}
         <Image
-          src="/images/hero.webp"
-          alt="Fazlerasheed warehouse operations"
+          src="/images/warehouse-team-forklift-pakistan.webp"
+          alt="Fazlerasheed warehousing equipment and spare parts in Pakistan"
           fill
           priority
           className="object-cover"
@@ -85,8 +85,8 @@ export default function ProductsPage() {
             <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-light to-light-blue p-8 lg:p-12">
               <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-primary/5 blur-3xl" />
               <Image
-                src="/images/products-equipment.png"
-                alt="Fazlerasheed and Company warehousing equipment"
+                src="/images/battery-operated-warehousing-equipment.png"
+                alt="Battery operated warehousing equipment for sale and rental in Pakistan"
                 width={480}
                 height={480}
                 className="relative mx-auto object-contain transition-transform duration-500 group-hover:scale-[1.03]"
@@ -203,8 +203,8 @@ export default function ProductsPage() {
             <div className="group order-1 relative overflow-hidden rounded-3xl bg-gradient-to-br from-light-blue to-primary-light p-8 lg:order-2 lg:p-12">
               <div className="absolute left-0 bottom-0 h-40 w-40 rounded-full bg-accent/10 blur-3xl" />
               <Image
-                src="/images/products-spareparts.webp"
-                alt="Fazlerasheed and Company spare parts"
+                src="/images/genuine-forklift-spare-parts.webp"
+                alt="Genuine and OEM forklift spare parts in Pakistan"
                 width={480}
                 height={480}
                 className="relative mx-auto object-contain transition-transform duration-500 group-hover:scale-[1.03]"
@@ -222,8 +222,8 @@ export default function ProductsPage() {
             <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-light to-light-blue p-8 lg:p-12">
               <div className="absolute right-0 bottom-0 h-40 w-40 rounded-full bg-primary/5 blur-3xl" />
               <Image
-                src="/images/products-crackfiller.png"
-                alt="Fazlerasheed and Company warehouse floor crack filler"
+                src="/images/warehouse-floor-crack-filler.png"
+                alt="Warehouse floor crack filler epoxy construction product"
                 width={480}
                 height={480}
                 className="relative mx-auto object-contain transition-transform duration-500 group-hover:scale-[1.03]"

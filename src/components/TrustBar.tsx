@@ -3,13 +3,13 @@
 import Image from "next/image";
 
 const brands = [
-  { src: "/images/brands/toyota.png", alt: "Toyota Material Handling", width: 120 },
-  { src: "/images/brands/linde.jpeg", alt: "Linde", width: 100 },
-  { src: "/images/brands/jungheinrich.png", alt: "Jungheinrich", width: 110 },
-  { src: "/images/brands/still.jpeg", alt: "Still", width: 100 },
-  { src: "/images/brands/bt.png", alt: "BT", width: 80 },
-  { src: "/images/brands/hawker.png", alt: "Hawker Batteries", width: 110 },
-  { src: "/images/brands/eternity.png", alt: "Eternity Batteries", width: 100 },
+  { src: "/images/brands/toyota.png", alt: "Toyota Material Handling forklift brand", width: 120 },
+  { src: "/images/brands/linde.jpeg", alt: "Linde Material Handling forklift brand", width: 100 },
+  { src: "/images/brands/jungheinrich.png", alt: "Jungheinrich warehouse equipment brand", width: 110 },
+  { src: "/images/brands/still.jpeg", alt: "Still forklift and warehouse equipment brand", width: 100 },
+  { src: "/images/brands/bt.png", alt: "BT by Toyota material handling brand", width: 80 },
+  { src: "/images/brands/hawker.png", alt: "Hawker traction batteries brand", width: 110 },
+  { src: "/images/brands/eternity.png", alt: "Eternity Technologies industrial batteries brand", width: 100 },
 ];
 
 function BrandSet() {
