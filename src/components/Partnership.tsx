@@ -40,7 +40,7 @@ export default function Partnership() {
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/ep-green"
+                href="/ep"
                 className="inline-flex items-center gap-2 rounded-lg bg-primary px-7 py-3.5 text-sm font-semibold text-white shadow-md transition-all hover:bg-primary-dark hover:shadow-lg"
               >
                 View EP Green Machines

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "EP Green Lithium-Ion Forklifts & MHE in Pakistan | Fazlerasheed & Co.",
   description:
     "Fazlerasheed & Co. is the authorized distributor of EP Green lithium-ion forklifts, reach trucks, stackers and power pallets in Pakistan. Zero emissions, low maintenance.",
-  alternates: { canonical: "https://fazlerasheed.com/ep-green" },
+  alternates: { canonical: "https://fazlerasheed.com/ep" },
 };
 
 type Machine = {
@@ -233,7 +233,7 @@ export default function EPGreenPage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://fazlerasheed.com" },
-      { "@type": "ListItem", position: 2, name: "EP Green Partnership", item: "https://fazlerasheed.com/ep-green" },
+      { "@type": "ListItem", position: 2, name: "EP Green Partnership", item: "https://fazlerasheed.com/ep" },
     ],
   };
 
