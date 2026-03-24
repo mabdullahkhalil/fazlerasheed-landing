@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
@@ -51,45 +51,36 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative">
-        <Image
-          src="/images/warehouse-team-forklift-pakistan.webp"
-          alt="Contact Fazlerasheed and Company for forklift services in Pakistan"
-          fill
-          priority
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
-
-        <div className="relative mx-auto max-w-7xl px-4 py-14 lg:px-8 lg:py-20">
-          <h1 className="text-3xl font-bold leading-snug text-white font-heading md:text-4xl lg:text-[2.75rem]">
-            Get in{" "}
-            <span className="relative inline-block pb-2">
-              <span className="text-accent">Touch</span>
-              <svg
-                className="absolute bottom-0 left-0 h-2.5 w-full text-accent"
-                viewBox="0 0 120 8"
-                fill="none"
-                preserveAspectRatio="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M2 5.5C8 2 14 8 20 5.5S32 2 38 5.5 50 2 56 5.5 68 2 74 5.5 86 2 92 5.5 104 2 110 5.5 116 4 118 5.5"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </span>{" "}
-            With Us
+      <section className="bg-gradient-to-br from-primary to-primary-dark">
+        <div className="mx-auto max-w-7xl px-4 py-10 lg:px-8 lg:py-14">
+          <nav className="mb-4 text-center text-xs text-white/50">
+            <Link href="/" className="transition-colors hover:text-white/80">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white/80">Contact Us</span>
+          </nav>
+          <h1 className="mx-auto mb-4 max-w-3xl text-center text-3xl font-bold leading-snug text-white font-heading md:text-4xl">
+            Contact Us for{" "}
+            Forklift Solutions
           </h1>
-
-          <div className="mt-6 w-full rounded-xl border border-white/20 bg-white/15 px-5 py-4 text-center backdrop-blur-md lg:px-6 lg:py-5">
-            <p className="text-sm leading-relaxed text-white/90 md:text-base">
-              Have a question about our equipment, need a rental quote, or want
-              to schedule maintenance? Reach out to us &mdash; our team is ready
-              to help.
-            </p>
+          <p className="mx-auto mb-6 max-w-2xl text-center text-sm leading-relaxed text-white/75 md:text-base">
+            Have a question about our equipment, need a rental quote, or
+            want to schedule maintenance? Our team is ready to help you
+            find the right solution.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <a
+              href="tel:+923336871970"
+              className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3 text-sm font-semibold text-primary shadow-lg transition-all hover:shadow-xl"
+            >
+              Call +92 333 6871970
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
+            </a>
+            <a
+              href="mailto:info@fazlerasheed.com"
+              className="inline-flex items-center gap-2 rounded-full border-2 border-white/25 px-7 py-3 text-sm font-semibold text-white transition-all hover:border-white/50 hover:bg-white/10"
+            >
+              Email Us
+            </a>
           </div>
         </div>
       </section>

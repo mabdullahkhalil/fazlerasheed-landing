@@ -99,69 +99,41 @@ export default function PartsPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative">
-        <Image
-          src="/images/warehouse-team-forklift-pakistan.webp"
-          alt="Genuine and OEM forklift spare parts delivered across Pakistan"
-          fill
-          priority
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
-
-        <div className="relative mx-auto max-w-7xl px-4 py-14 lg:px-8 lg:py-20">
-          <h1 className="text-3xl font-bold leading-snug text-white font-heading md:text-4xl lg:text-[2.75rem]">
-            Genuine &amp; OEM{" "}
-            <span className="relative inline-block pb-2">
-              <span className="text-accent">Forklift Spare Parts</span>
-              <svg
-                className="absolute bottom-0 left-0 h-2.5 w-full text-accent"
-                viewBox="0 0 120 8"
-                fill="none"
-                preserveAspectRatio="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M2 5.5C8 2 14 8 20 5.5S32 2 38 5.5 50 2 56 5.5 68 2 74 5.5 86 2 92 5.5 104 2 110 5.5 116 4 118 5.5"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </span>{" "}
-            Delivered Across Pakistan
+      <section className="bg-gradient-to-br from-primary to-primary-dark">
+        <div className="mx-auto max-w-7xl px-4 py-10 lg:px-8 lg:py-14">
+          <nav className="mb-4 text-center text-xs text-white/50">
+            <Link href="/" className="transition-colors hover:text-white/80">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white/80">Spare Parts</span>
+          </nav>
+          <h1 className="mx-auto mb-4 max-w-3xl text-center text-3xl font-bold leading-snug text-white font-heading md:text-4xl">
+            Forklift Spare Parts for All Leading Brands
           </h1>
-
-          <div className="mt-6 w-full rounded-xl border border-white/20 bg-white/15 px-5 py-4 text-center backdrop-blur-md lg:px-6 lg:py-5">
-            <p className="text-sm leading-relaxed text-white/90 md:text-base">
-              Fazl-e-Rasheed and Company is one of the major forklift parts
-              suppliers in Pakistan, providing genuine and OEM parts for
-              Jungheinrich, Still, Clark, Linde, Crown, Toyota, BT, Yale and
-              more.
-            </p>
+          <p className="mx-auto mb-6 max-w-2xl text-center text-sm leading-relaxed text-white/75 md:text-base">
+            One of the major forklift parts suppliers in Pakistan, providing
+            genuine and OEM parts for all leading brands with fast delivery
+            nationwide.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link
+              href="https://shop.fazlerasheed.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3 text-sm font-semibold text-primary shadow-lg transition-all hover:shadow-xl"
+            >
+              Browse All Parts
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
+            </Link>
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 rounded-full border-2 border-white/25 px-7 py-3 text-sm font-semibold text-white transition-all hover:border-white/50 hover:bg-white/10"
+            >
+              Request a Part
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Brands Strip */}
-      <section className="border-b border-border bg-white py-6">
-        <div className="mx-auto max-w-7xl px-4 lg:px-8">
-          <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2">
-            <p className="mr-2 text-xs font-semibold uppercase tracking-widest text-muted">
-              Brands We Supply
-            </p>
-            <div className="hidden h-5 w-px bg-border sm:block" />
-            {brands.map((brand) => (
-              <span
-                key={brand}
-                className="rounded-full border border-primary/15 bg-primary-light px-3.5 py-1 text-xs font-semibold text-primary"
-              >
-                {brand}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Intro + Hero Image */}
       <section className="bg-white py-20 lg:py-28">

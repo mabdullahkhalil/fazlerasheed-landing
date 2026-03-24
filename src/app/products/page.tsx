@@ -22,57 +22,39 @@ export default function ProductsPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative">
-        {/* Background image */}
-        <Image
-          src="/images/warehouse-team-forklift-pakistan.webp"
-          alt="Fazlerasheed warehousing equipment and spare parts in Pakistan"
-          fill
-          priority
-          className="object-cover"
-        />
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
-
-        {/* Content */}
-        <div className="relative mx-auto max-w-7xl px-4 py-14 lg:px-8 lg:py-20">
-          <h1 className="text-3xl font-bold leading-snug text-white font-heading md:text-4xl lg:text-[2.75rem]">
-            Pakistan&apos;s leading{" "}
-            <span className="relative inline-block pb-2">
-              <span className="text-accent">battery operated</span>
-              <svg
-                className="absolute bottom-0 left-0 h-2.5 w-full text-accent"
-                viewBox="0 0 120 8"
-                fill="none"
-                preserveAspectRatio="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M2 5.5C8 2 14 8 20 5.5S32 2 38 5.5 50 2 56 5.5 68 2 74 5.5 86 2 92 5.5 104 2 110 5.5 116 4 118 5.5"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                />
-              </svg>
-            </span>{" "}
-            Warehousing Equipment &amp; Spare Parts provider
+      <section className="bg-gradient-to-br from-primary to-primary-dark">
+        <div className="mx-auto max-w-7xl px-4 py-10 lg:px-8 lg:py-14">
+          <nav className="mb-4 text-center text-xs text-white/50">
+            <Link href="/" className="transition-colors hover:text-white/80">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white/80">Products</span>
+          </nav>
+          <h1 className="mx-auto mb-4 max-w-3xl text-center text-3xl font-bold leading-snug text-white font-heading md:text-4xl">
+            Pakistan&apos;s Leading{" "}
+Battery Operated{" "}
+            Warehousing Equipment Provider
           </h1>
-
-          {/* Frosted glass card */}
-          <div className="mt-6 w-full rounded-xl border border-white/20 bg-white/15 px-5 py-4 text-center backdrop-blur-md lg:px-6 lg:py-5">
-            <p className="text-sm leading-relaxed text-white/90 md:text-base">
-              Our battery operated warehousing equipment includes Power Pallets,
-              Fork Lifters, Reach Trucks, Tow Trucks and Hand Pallets along
-              with best services and{" "}
-              <Link
-                href="/parts"
-                className="font-semibold text-accent underline decoration-accent/50 underline-offset-2 transition-colors hover:text-white hover:decoration-white"
-              >
-                spare parts
-              </Link>
-              . We have a fleet of over 170 machines available for both sale
-              and rental.
-            </p>
+          <p className="mx-auto mb-6 max-w-2xl text-center text-sm leading-relaxed text-white/75 md:text-base">
+            Power Pallets, Fork Lifters, Reach Trucks, Tow Trucks and Hand
+            Pallets &mdash; with best-in-class spare parts and after-sales
+            support for sale and rental.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            <Link
+              href="/contact"
+              className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3 text-sm font-semibold text-primary shadow-lg transition-all hover:shadow-xl"
+            >
+              Get a Quote
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
+            </Link>
+            <Link
+              href="https://shop.fazlerasheed.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border-2 border-white/25 px-7 py-3 text-sm font-semibold text-white transition-all hover:border-white/50 hover:bg-white/10"
+            >
+              Browse Machines
+            </Link>
           </div>
         </div>
       </section>

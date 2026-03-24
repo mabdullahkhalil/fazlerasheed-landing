@@ -2,20 +2,19 @@ import Link from "next/link";
 import Image from "next/image";
 
 const businessLinks = [
-  { label: "About Us", href: "/about" },
   { label: "Products", href: "/products" },
   { label: "Batteries", href: "/batteries" },
   { label: "Services", href: "/services" },
-  { label: "Machines", href: "/equipment" },
   { label: "Spare Parts", href: "/parts" },
-  { label: "Blog", href: "/blog" },
+  { label: "Contact Us", href: "/contact" },
+  { label: "Shop", href: "https://shop.fazlerasheed.com" },
 ];
 
 const serviceLinks = [
-  { label: "Sales", href: "/services/forklift-sales" },
-  { label: "Rental", href: "/services/forklift-rental" },
-  { label: "Maintenance", href: "/services/maintenance" },
-  { label: "Battery Regeneration", href: "/services/batteries" },
+  { label: "Sales & Rental", href: "/services" },
+  { label: "Maintenance", href: "/services" },
+  { label: "Battery Regeneration", href: "/services" },
+  { label: "Wheel Retreading", href: "/services" },
 ];
 
 const phones = [
