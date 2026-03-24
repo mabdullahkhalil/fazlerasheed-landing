@@ -36,8 +36,22 @@ export default async function BrandPartsPage({
     brand.partCategories.includes(c.name),
   );
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://fazlerasheed.com" },
+      { "@type": "ListItem", position: 2, name: "Parts", item: "https://fazlerasheed.com/parts" },
+      { "@type": "ListItem", position: 3, name: `${brand.name} Parts`, item: `https://fazlerasheed.com/parts/${brand.slug}` },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary to-primary-dark">
         <div className="mx-auto max-w-7xl px-4 py-10 lg:px-8 lg:py-14">

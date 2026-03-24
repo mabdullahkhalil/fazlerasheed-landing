@@ -6,16 +6,17 @@ export const metadata: Metadata = {
   title: "Warehousing Equipment, Spare Parts & Traction Batteries | Fazlerasheed & Co.",
   description:
     "Our battery operated warehousing equipment includes Power Pallets, Fork Lifters, Reach Trucks, Tow Trucks and Hand Pallets along with best services and spare parts.",
+  alternates: { canonical: "https://fazlerasheed.com/products" },
 };
 
 const equipmentTypes = [
-  { label: "Forklifts", href: "/equipment/forklifts" },
-  { label: "Reach Trucks", href: "/equipment/reach-trucks" },
-  { label: "Power Pallets", href: "/equipment/power-pallets" },
-  { label: "Tow Trucks", href: "/equipment/tow-trucks" },
-  { label: "Order Pickers", href: "/equipment/order-pickers" },
-  { label: "Stackers", href: "/equipment/stackers" },
-  { label: "Hand Pallets", href: "/equipment/hand-pallets" },
+  { label: "Forklifts", href: "/products/forklifts" },
+  { label: "Reach Trucks", href: "/products/reach-trucks" },
+  { label: "Power Pallets", href: "/products/power-pallets" },
+  { label: "Tow Trucks", href: "/products/tow-trucks" },
+  { label: "Order Pickers", href: "/products/order-pickers" },
+  { label: "Stackers", href: "/products/stackers" },
+  { label: "Hand Pallets", href: "/products/hand-pallets" },
 ];
 
 export default function ProductsPage() {
@@ -67,7 +68,7 @@ Battery Operated{" "}
             <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-light to-light-blue p-8 lg:p-12">
               <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-primary/5 blur-3xl" />
               <Image
-                src="/images/battery-operated-warehousing-equipment.png"
+                src="/images/battery-operated-warehousing-equipment.webp"
                 alt="Battery operated warehousing equipment for sale and rental in Pakistan"
                 width={480}
                 height={480}
@@ -204,7 +205,7 @@ Battery Operated{" "}
             <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-light to-light-blue p-8 lg:p-12">
               <div className="absolute right-0 bottom-0 h-40 w-40 rounded-full bg-primary/5 blur-3xl" />
               <Image
-                src="/images/warehouse-floor-crack-filler.png"
+                src="/images/warehouse-floor-crack-filler.webp"
                 alt="Warehouse floor crack filler epoxy construction product"
                 width={480}
                 height={480}

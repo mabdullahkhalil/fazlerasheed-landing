@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Services - Rental, Maintenance, Battery Regeneration | Fazlerasheed & Co.",
   description:
     "Fazlerasheed offers forklift rental services, planned maintenance, battery regeneration, wheel retreading, and golf cart maintenance across Pakistan.",
+  alternates: { canonical: "https://fazlerasheed.com/services" },
 };
 
 export default function ServicesPage() {

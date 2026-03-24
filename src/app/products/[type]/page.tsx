@@ -38,8 +38,22 @@ export default async function EquipmentTypePage({
 
   const otherEquipment = equipmentTypes.filter((e) => e.slug !== equipment.slug);
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://fazlerasheed.com" },
+      { "@type": "ListItem", position: 2, name: "Products", item: "https://fazlerasheed.com/products" },
+      { "@type": "ListItem", position: 3, name: equipment.name, item: `https://fazlerasheed.com/products/${equipment.slug}` },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary to-primary-dark">
         <div className="mx-auto max-w-7xl px-4 py-10 lg:px-8 lg:py-14">

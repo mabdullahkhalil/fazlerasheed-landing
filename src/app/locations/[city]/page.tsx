@@ -72,8 +72,45 @@ export default async function CityPage({
 
   const otherCities = cities.filter((c) => c.slug !== city.slug);
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://fazlerasheed.com" },
+      { "@type": "ListItem", position: 2, name: "Locations" },
+      { "@type": "ListItem", position: 3, name: city.name, item: `https://fazlerasheed.com/locations/${city.slug}` },
+    ],
+  };
+
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: `Fazlerasheed & Co. - ${city.name}`,
+    description: city.description,
+    url: `https://fazlerasheed.com/locations/${city.slug}`,
+    telephone: "+923336871970",
+    email: "info@fazlerasheed.com",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: city.name,
+      addressRegion: city.province,
+      addressCountry: "PK",
+    },
+    areaServed: {
+      "@type": "City",
+      name: city.name,
+    },
+    parentOrganization: {
+      "@id": "https://fazlerasheed.com/#organization",
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema, localBusinessSchema]) }}
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary to-primary-dark">
         <div className="mx-auto max-w-7xl px-4 py-10 lg:px-8 lg:py-14">

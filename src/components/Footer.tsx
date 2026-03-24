@@ -62,7 +62,7 @@ export default function Footer() {
             <Link href="/" className="mb-5 inline-block">
               <Image
                 src="/images/logo.png"
-                alt="Fazlerasheed &amp; Co."
+                alt="Fazlerasheed & Co. logo"
                 width={250}
                 height={42}
               />

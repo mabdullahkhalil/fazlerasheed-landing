@@ -23,7 +23,7 @@ export default function Header() {
         <Link href="/" className="shrink-0">
           <Image
             src="/images/logo.png"
-            alt="Fazlerasheed &amp; Co."
+            alt="Fazlerasheed & Co. - Forklift dealer in Pakistan"
             width={250}
             height={42}
             priority

@@ -6,7 +6,7 @@ const features = [
     title: "Sales and Rental of Forklifts",
     description:
       "Our extensive range includes battery-operated machines ranging from 1 ton to 5.5 tons, with electric machines that come with various attachments to enhance their functionality.",
-    href: "/services/forklift-sales",
+    href: "/products",
     image: "/images/forklift-sales-rental-pakistan.png",
     imageAlt: "Battery operated forklift sales and rental in Pakistan",
   },
@@ -30,7 +30,7 @@ const features = [
     title: "FR Care and Maintenance",
     description:
       "We boast cutting-edge equipment that facilitates the maintenance of all types of machines. Our clients entrust us with their malfunctioning machines, which we expertly refurbish and recondition.",
-    href: "/services/maintenance",
+    href: "/services",
     image: "/images/forklift-maintenance-service.png",
     imageAlt: "Forklift care maintenance and reconditioning service",
   },

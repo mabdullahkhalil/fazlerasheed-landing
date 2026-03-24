@@ -73,32 +73,85 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Fazlerasheed & Co.",
-              url: "https://fazlerasheed.com",
-              logo: "https://fazlerasheed.com/images/logo.png",
-              description:
-                "Leading importer and dealer of battery operated forklifts, reach trucks, and material handling equipment in Pakistan.",
-              telephone: ["+923336871970", "+923424554488", "+923311141062"],
-              email: "info@fazlerasheed.com",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "Coca-Cola Stop, 12 KM Raiwind Road",
-                addressLocality: "Lahore",
-                addressCountry: "PK",
-                postalCode: "54000",
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": ["Organization", "LocalBusiness"],
+                "@id": "https://fazlerasheed.com/#organization",
+                name: "Fazlerasheed & Co.",
+                url: "https://fazlerasheed.com",
+                logo: {
+                  "@type": "ImageObject",
+                  url: "https://fazlerasheed.com/images/logo.png",
+                  width: 250,
+                  height: 42,
+                },
+                image: "https://fazlerasheed.com/images/warehouse-team-forklift-pakistan.webp",
+                description:
+                  "Leading importer and dealer of battery operated forklifts, reach trucks, and material handling equipment in Pakistan. Sales, rental, maintenance, spare parts and traction batteries.",
+                telephone: ["+923336871970", "+923424554488", "+923311141062"],
+                email: "info@fazlerasheed.com",
+                address: [
+                  {
+                    "@type": "PostalAddress",
+                    name: "Head Office",
+                    streetAddress: "328/3 W Block, Street 25, Phase 3, DHA Lahore Cantt.",
+                    addressLocality: "Lahore",
+                    addressRegion: "Punjab",
+                    addressCountry: "PK",
+                    postalCode: "54810",
+                  },
+                  {
+                    "@type": "PostalAddress",
+                    name: "Site Office",
+                    streetAddress: "Coca-Cola Stop, 12 KM Raiwind Road",
+                    addressLocality: "Lahore",
+                    addressRegion: "Punjab",
+                    addressCountry: "PK",
+                    postalCode: "54000",
+                  },
+                ],
+                geo: {
+                  "@type": "GeoCoordinates",
+                  latitude: 31.3782,
+                  longitude: 74.2096,
+                },
+                openingHoursSpecification: {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                  opens: "09:00",
+                  closes: "18:00",
+                },
+                priceRange: "$$",
+                currenciesAccepted: "PKR",
+                paymentAccepted: "Cash, Bank Transfer",
+                sameAs: [
+                  "https://www.linkedin.com/company/fazl-e-rasheed-and-co/",
+                  "https://www.facebook.com/fazlerasheedco/",
+                  "https://www.youtube.com/@fazlerasheedandcompany",
+                ],
+                areaServed: {
+                  "@type": "Country",
+                  name: "Pakistan",
+                },
+                knowsAbout: [
+                  "Forklift Sales",
+                  "Forklift Rental",
+                  "Forklift Maintenance",
+                  "Material Handling Equipment",
+                  "Traction Batteries",
+                  "Forklift Spare Parts",
+                ],
               },
-              sameAs: [
-                "https://www.linkedin.com/company/fazl-e-rasheed-and-co/",
-                "https://www.facebook.com/fazlerasheedco/",
-              ],
-              areaServed: {
-                "@type": "Country",
-                name: "Pakistan",
+              {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "@id": "https://fazlerasheed.com/#website",
+                name: "Fazlerasheed & Co.",
+                url: "https://fazlerasheed.com",
+                publisher: { "@id": "https://fazlerasheed.com/#organization" },
               },
-            }),
+            ]),
           }}
         />
         <Header />

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Contact Us - Fazlerasheed & Co. | Get in Touch",
   description:
     "Contact Fazlerasheed & Co. for forklift rental, spare parts, traction batteries, and maintenance services in Pakistan. Call +92 333 6871970 or email us.",
+  alternates: { canonical: "https://fazlerasheed.com/contact" },
 };
 
 const contacts = [

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Traction Batteries - Eternity & Trojan | Fazlerasheed & Co.",
   description:
     "We supply Eternity and Trojan traction batteries for forklifts, reach trucks, and all material handling equipment in Pakistan. Low maintenance, long life, deep-cycle batteries.",
+  alternates: { canonical: "https://fazlerasheed.com/batteries" },
 };
 
 const batteryBrands = [
