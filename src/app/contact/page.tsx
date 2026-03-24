@@ -95,7 +95,7 @@ export default function ContactPage() {
             {/* Form */}
             <div className="lg:col-span-3">
               <div className="mb-4 flex items-center gap-3">
-                <span className="text-4xl font-bold text-primary/15 font-heading">01</span>
+                <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">01</span>
                 <div className="h-px flex-1 bg-gradient-to-r from-primary/20 to-transparent" />
               </div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
@@ -111,7 +111,7 @@ export default function ContactPage() {
             {/* Contact Info Sidebar */}
             <div className="lg:col-span-2">
               <div className="mb-4 flex items-center gap-3">
-                <span className="text-4xl font-bold text-primary/15 font-heading">02</span>
+                <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">02</span>
                 <div className="h-px flex-1 bg-gradient-to-r from-primary/20 to-transparent" />
               </div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">

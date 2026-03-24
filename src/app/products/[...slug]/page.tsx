@@ -143,7 +143,7 @@ function EquipmentTypePage({ typeSlug }: { typeSlug: string }) {
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div>
               <div className="mb-4 flex items-center gap-3">
-                <span className="text-4xl font-bold text-primary/15 font-heading">01</span>
+                <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">01</span>
                 <div className="h-px flex-1 bg-gradient-to-r from-primary/20 to-transparent" />
               </div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
@@ -176,7 +176,7 @@ function EquipmentTypePage({ typeSlug }: { typeSlug: string }) {
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="mb-10 text-center">
             <div className="mb-4 flex items-center justify-center gap-3">
-              <span className="text-4xl font-bold text-primary/15 font-heading">02</span>
+              <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">02</span>
               <div className="h-px w-16 bg-gradient-to-r from-primary/20 to-transparent" />
             </div>
             <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">Available Brands</p>
@@ -361,7 +361,7 @@ function BrandEquipmentPage({ brandSlug, typeSlug }: { brandSlug: string; typeSl
           <div className="grid items-center gap-10 lg:grid-cols-2">
             <div>
               <div className="mb-4 flex items-center gap-3">
-                <span className="text-4xl font-bold text-primary/15 font-heading">01</span>
+                <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">01</span>
                 <div className="h-px flex-1 bg-gradient-to-r from-primary/20 to-transparent" />
               </div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
@@ -409,7 +409,7 @@ function BrandEquipmentPage({ brandSlug, typeSlug }: { brandSlug: string; typeSl
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="mb-10 text-center">
             <div className="mb-4 flex items-center justify-center gap-3">
-              <span className="text-4xl font-bold text-primary/15 font-heading">02</span>
+              <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">02</span>
               <div className="h-px w-16 bg-gradient-to-r from-primary/20 to-transparent" />
             </div>
             <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">Specifications</p>
@@ -433,7 +433,7 @@ function BrandEquipmentPage({ brandSlug, typeSlug }: { brandSlug: string; typeSl
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="mb-10 text-center">
             <div className="mb-4 flex items-center justify-center gap-3">
-              <span className="text-4xl font-bold text-primary/15 font-heading">03</span>
+              <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">03</span>
               <div className="h-px w-16 bg-gradient-to-r from-primary/20 to-transparent" />
             </div>
             <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">Spare Parts</p>

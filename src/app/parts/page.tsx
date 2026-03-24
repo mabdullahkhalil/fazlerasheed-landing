@@ -93,7 +93,7 @@ export default function PartsPage() {
 
             <div>
               <div className="mb-4 flex items-center gap-3">
-                <span className="text-4xl font-bold text-primary/15 font-heading">
+                <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">
                   12+
                 </span>
                 <div className="h-px flex-1 bg-gradient-to-r from-primary/20 to-transparent" />

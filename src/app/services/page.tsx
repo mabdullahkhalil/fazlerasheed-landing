@@ -91,7 +91,7 @@ Warehouse
 
             <div>
               <div className="mb-4 flex items-center gap-3">
-                <span className="text-4xl font-bold text-primary/15 font-heading">01</span>
+                <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">01</span>
                 <div className="h-px flex-1 bg-gradient-to-r from-primary/20 to-transparent" />
               </div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
@@ -150,7 +150,7 @@ Warehouse
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
             <div className="order-2 lg:order-1">
               <div className="mb-4 flex items-center gap-3">
-                <span className="text-4xl font-bold text-primary/15 font-heading">02</span>
+                <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">02</span>
                 <div className="h-px flex-1 bg-gradient-to-r from-primary/20 to-transparent" />
               </div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
@@ -227,7 +227,7 @@ Warehouse
 
             <div>
               <div className="mb-4 flex items-center gap-3">
-                <span className="text-4xl font-bold text-primary/15 font-heading">03</span>
+                <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">03</span>
                 <div className="h-px flex-1 bg-gradient-to-r from-primary/20 to-transparent" />
               </div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
@@ -281,7 +281,7 @@ Warehouse
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
             <div className="order-2 lg:order-1">
               <div className="mb-4 flex items-center gap-3">
-                <span className="text-4xl font-bold text-primary/15 font-heading">04</span>
+                <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">04</span>
                 <div className="h-px flex-1 bg-gradient-to-r from-primary/20 to-transparent" />
               </div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
@@ -351,7 +351,7 @@ Warehouse
 
             <div>
               <div className="mb-4 flex items-center gap-3">
-                <span className="text-4xl font-bold text-primary/15 font-heading">05</span>
+                <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">05</span>
                 <div className="h-px flex-1 bg-gradient-to-r from-primary/20 to-transparent" />
               </div>
               <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
