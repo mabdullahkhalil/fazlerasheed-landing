@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Core pages -->
-  <url><loc>https://fazlerasheed.com</loc><lastmod>2026-03-24</lastmod></url>
+  <url><loc>https://fazlerasheed.com/</loc><lastmod>2026-03-22</lastmod></url>
   <url><loc>https://fazlerasheed.com/products</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/batteries</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/services</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/parts</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/contact</loc><lastmod>2026-03-24</lastmod></url>
-
-  <!-- Brand parts pages (8) -->
   <url><loc>https://fazlerasheed.com/parts/jungheinrich</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/parts/still</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/parts/clark</loc><lastmod>2026-03-24</lastmod></url>
@@ -17,8 +14,6 @@
   <url><loc>https://fazlerasheed.com/parts/toyota</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/parts/bt</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/parts/yale</loc><lastmod>2026-03-24</lastmod></url>
-
-  <!-- Part category pages (12) -->
   <url><loc>https://fazlerasheed.com/parts/category/hydraulic-parts</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/parts/category/tires-wheels</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/parts/category/steering-parts</loc><lastmod>2026-03-24</lastmod></url>
@@ -31,8 +26,6 @@
   <url><loc>https://fazlerasheed.com/parts/category/cooling-parts</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/parts/category/attachments</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/parts/category/fuel-parts</loc><lastmod>2026-03-24</lastmod></url>
-
-  <!-- City location pages (10) -->
   <url><loc>https://fazlerasheed.com/locations/lahore</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/locations/karachi</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/locations/islamabad</loc><lastmod>2026-03-24</lastmod></url>
@@ -43,8 +36,6 @@
   <url><loc>https://fazlerasheed.com/locations/gujranwala</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/locations/peshawar</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/locations/hyderabad</loc><lastmod>2026-03-24</lastmod></url>
-
-  <!-- Equipment type pages (9) -->
   <url><loc>https://fazlerasheed.com/products/forklifts</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/products/reach-trucks</loc><lastmod>2026-03-24</lastmod></url>
   <url><loc>https://fazlerasheed.com/products/power-pallets</loc><lastmod>2026-03-24</lastmod></url>
