@@ -499,7 +499,7 @@ export default function EPGreenPage() {
             <span className="text-border">|</span>
             <Link href="/services" className="font-semibold text-primary hover:underline">Maintenance Services</Link>
             <span className="text-border">|</span>
-            <Link href="/parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
+            <Link href="/spare-parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
           </div>
         </div>
       </section>

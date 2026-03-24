@@ -5,7 +5,7 @@ const businessLinks = [
   { label: "Products", href: "/products" },
   { label: "Batteries", href: "/batteries" },
   { label: "Services", href: "/services" },
-  { label: "Spare Parts", href: "/parts" },
+  { label: "Spare Parts", href: "/spare-parts" },
   { label: "Contact Us", href: "/contact" },
   { label: "Shop", href: "https://shop.fazlerasheed.com" },
 ];
@@ -23,14 +23,14 @@ const equipmentLinks = [
 ];
 
 const brandLinks = [
-  { label: "Jungheinrich Parts", href: "/parts/jungheinrich" },
-  { label: "Still Parts", href: "/parts/still" },
-  { label: "Clark Parts", href: "/parts/clark" },
-  { label: "Linde Parts", href: "/parts/linde" },
-  { label: "Crown Parts", href: "/parts/crown" },
-  { label: "Toyota Parts", href: "/parts/toyota" },
-  { label: "BT Parts", href: "/parts/bt" },
-  { label: "Yale Parts", href: "/parts/yale" },
+  { label: "Jungheinrich Parts", href: "/spare-parts/jungheinrich" },
+  { label: "Still Parts", href: "/spare-parts/still" },
+  { label: "Clark Parts", href: "/spare-parts/clark" },
+  { label: "Linde Parts", href: "/spare-parts/linde" },
+  { label: "Crown Parts", href: "/spare-parts/crown" },
+  { label: "Toyota Parts", href: "/spare-parts/toyota" },
+  { label: "BT Parts", href: "/spare-parts/bt" },
+  { label: "Yale Parts", href: "/spare-parts/yale" },
 ];
 
 const locationLinks = [

@@ -87,7 +87,7 @@ const corePages = [
   { path: "/products", file: "src/app/products/page.tsx" },
   { path: "/batteries", file: "src/app/batteries/page.tsx" },
   { path: "/services", file: "src/app/services/page.tsx" },
-  { path: "/parts", file: "src/app/parts/page.tsx" },
+  { path: "/spare-parts", file: "src/app/spare-parts/page.tsx" },
   { path: "/contact", file: "src/app/contact/page.tsx" },
   { path: "/ep", file: "src/app/ep/page.tsx" },
 ];
@@ -96,15 +96,15 @@ for (const p of corePages) {
 }
 
 // Brand pages
-const brandDate = latest("src/app/parts/[brand]/page.tsx", DATA_FILE);
+const brandDate = latest("src/app/spare-parts/[brand]/page.tsx", DATA_FILE);
 for (const slug of brandSlugs) {
-  entries.push({ loc: `${BASE}/parts/${slug}`, lastmod: brandDate });
+  entries.push({ loc: `${BASE}/spare-parts/${slug}`, lastmod: brandDate });
 }
 
 // Category pages
-const catDate = latest("src/app/parts/category/[slug]/page.tsx", DATA_FILE);
+const catDate = latest("src/app/spare-parts/category/[slug]/page.tsx", DATA_FILE);
 for (const slug of categorySlugs) {
-  entries.push({ loc: `${BASE}/parts/category/${slug}`, lastmod: catDate });
+  entries.push({ loc: `${BASE}/spare-parts/category/${slug}`, lastmod: catDate });
 }
 
 // Location pages

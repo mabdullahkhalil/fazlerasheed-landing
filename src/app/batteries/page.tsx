@@ -337,7 +337,7 @@ export default function BatteriesPage() {
             <span className="text-border">|</span>
             <Link href="/products" className="font-semibold text-primary hover:underline">All Equipment</Link>
             <span className="text-border">|</span>
-            <Link href="/parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
+            <Link href="/spare-parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
           </div>
         </div>
       </section>

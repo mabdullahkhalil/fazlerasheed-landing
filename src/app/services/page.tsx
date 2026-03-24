@@ -163,7 +163,7 @@ Warehouse
                 We offer a variety of forklift service options through our team
                 of trained professionals. We believe it is important to provide
                 quality service with trained engineers, quality{" "}
-                <Link href="/parts" className="font-semibold text-primary hover:underline">spare parts</Link>,
+                <Link href="/spare-parts" className="font-semibold text-primary hover:underline">spare parts</Link>,
                 first-call fix rate and fast response time.
               </p>
               <p className="mb-8 text-base leading-relaxed text-muted">
@@ -369,7 +369,7 @@ Warehouse
                 We provide{" "}
                 <Link href="/batteries" className="font-semibold text-primary hover:underline">Trojan and Eternity semi-traction batteries</Link>{" "}
                 for these carts. We contract regular maintenance, supply all{" "}
-                <Link href="/parts" className="font-semibold text-primary hover:underline">parts</Link>,
+                <Link href="/spare-parts" className="font-semibold text-primary hover:underline">parts</Link>,
                 motors, and electronic components. We use imported
                 European parts for all battery-powered machines.
               </p>
@@ -408,11 +408,11 @@ Warehouse
             <span className="text-border">|</span>
             <Link href="/batteries" className="font-semibold text-primary hover:underline">Traction Batteries</Link>
             <span className="text-border">|</span>
-            <Link href="/parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
+            <Link href="/spare-parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
             <span className="text-border">|</span>
-            <Link href="/parts/category/tires-wheels" className="font-semibold text-primary hover:underline">Tires & Wheels</Link>
+            <Link href="/spare-parts/category/tires-wheels" className="font-semibold text-primary hover:underline">Tires & Wheels</Link>
             <span className="text-border">|</span>
-            <Link href="/parts/category/electrical-parts" className="font-semibold text-primary hover:underline">Electrical Parts</Link>
+            <Link href="/spare-parts/category/electrical-parts" className="font-semibold text-primary hover:underline">Electrical Parts</Link>
           </div>
         </div>
       </section>

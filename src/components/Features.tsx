@@ -22,7 +22,7 @@ const features = [
     title: "Forklift Spare Parts",
     description:
       "We provide the best quality genuine spare parts of all brands including original, OEM parts, wheels, and solid tires. We are the distributors of world top parts supplier i.e. TVH.",
-    href: "/parts",
+    href: "/spare-parts",
     image: "/images/forklift-spare-parts-pakistan.png",
     imageAlt: "Genuine OEM forklift spare parts supplier in Pakistan",
   },

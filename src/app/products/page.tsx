@@ -172,7 +172,7 @@ Battery Operated{" "}
               </div>
 
               <Link
-                href="/parts"
+                href="/spare-parts"
                 className="group/btn inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/20 transition-all hover:bg-primary-dark hover:shadow-xl hover:shadow-primary/25"
               >
                 View Spare Parts
@@ -273,11 +273,11 @@ Battery Operated{" "}
             <span className="text-border">|</span>
             <Link href="/services" className="font-semibold text-primary hover:underline">Rental & Maintenance</Link>
             <span className="text-border">|</span>
-            <Link href="/parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
+            <Link href="/spare-parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
             <span className="text-border">|</span>
-            <Link href="/parts/category/tires-wheels" className="font-semibold text-primary hover:underline">Tires & Wheels</Link>
+            <Link href="/spare-parts/category/tires-wheels" className="font-semibold text-primary hover:underline">Tires & Wheels</Link>
             <span className="text-border">|</span>
-            <Link href="/parts/category/electrical-parts" className="font-semibold text-primary hover:underline">Electrical Parts</Link>
+            <Link href="/spare-parts/category/electrical-parts" className="font-semibold text-primary hover:underline">Electrical Parts</Link>
           </div>
         </div>
       </section>

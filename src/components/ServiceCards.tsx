@@ -16,7 +16,7 @@ const services = [
     title: "Spare Parts",
     description:
       "Get best quality genuine spare parts, branded and OEM, at the best prices.",
-    href: "/parts",
+    href: "/spare-parts",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="3" />

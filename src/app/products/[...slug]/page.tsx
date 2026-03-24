@@ -237,9 +237,9 @@ function EquipmentTypePage({ typeSlug }: { typeSlug: string }) {
             <span className="text-border">|</span>
             <Link href="/services" className="font-semibold text-primary hover:underline">Rental &amp; Maintenance</Link>
             <span className="text-border">|</span>
-            <Link href="/parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
+            <Link href="/spare-parts" className="font-semibold text-primary hover:underline">Spare Parts</Link>
             <span className="text-border">|</span>
-            <Link href="/parts/category/tires-wheels" className="font-semibold text-primary hover:underline">Tires &amp; Wheels</Link>
+            <Link href="/spare-parts/category/tires-wheels" className="font-semibold text-primary hover:underline">Tires &amp; Wheels</Link>
           </div>
         </div>
       </section>

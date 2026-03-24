@@ -34,7 +34,7 @@ const services = [
   },
   {
     title: "Spare Parts",
-    href: "/parts",
+    href: "/spare-parts",
     description:
       "Genuine and aftermarket spare parts for all major forklift brands with fast delivery and expert part identification support.",
     icon: (

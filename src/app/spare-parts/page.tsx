@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Forklift Spare Parts - Genuine & OEM | Fazlerasheed & Co.",
   description:
     "We supply genuine and OEM forklift spare parts for Jungheinrich, Still, Clark, Linde, Crown, Toyota, BT, Yale and more across Pakistan.",
-  alternates: { canonical: "https://fazlerasheed.com/parts" },
+  alternates: { canonical: "https://fazlerasheed.com/spare-parts" },
 };
 
 const brands = [

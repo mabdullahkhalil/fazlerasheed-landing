@@ -19,7 +19,7 @@ export async function generateMetadata({
   return {
     title: `Forklift ${category.name} in Pakistan | Fazlerasheed & Co.`,
     description: category.description,
-    alternates: { canonical: `https://fazlerasheed.com/parts/category/${category.slug}` },
+    alternates: { canonical: `https://fazlerasheed.com/spare-parts/category/${category.slug}` },
   };
 }
 
@@ -45,8 +45,8 @@ export default async function CategoryPartsPage({
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://fazlerasheed.com" },
-      { "@type": "ListItem", position: 2, name: "Parts", item: "https://fazlerasheed.com/parts" },
-      { "@type": "ListItem", position: 3, name: category.name, item: `https://fazlerasheed.com/parts/category/${category.slug}` },
+      { "@type": "ListItem", position: 2, name: "Parts", item: "https://fazlerasheed.com/spare-parts" },
+      { "@type": "ListItem", position: 3, name: category.name, item: `https://fazlerasheed.com/spare-parts/category/${category.slug}` },
     ],
   };
 
@@ -62,7 +62,7 @@ export default async function CategoryPartsPage({
           <nav className="mb-4 text-center text-xs text-white/50">
             <Link href="/" className="transition-colors hover:text-white/80">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/parts" className="transition-colors hover:text-white/80">Spare Parts</Link>
+            <Link href="/spare-parts" className="transition-colors hover:text-white/80">Spare Parts</Link>
             <span className="mx-2">/</span>
             <span className="text-white/80">{category.name}</span>
           </nav>
