@@ -81,6 +81,10 @@ function EquipmentTypePage({ typeSlug }: { typeSlug: string }) {
   const supportedBrands = brands.filter((b) =>
     equipment.brands.includes(b.name),
   );
+  // Check if brand-equipment combo pages exist (brand must list this equipment type)
+  const hasComboPages = supportedBrands.some((b) =>
+    b.equipmentTypes.includes(equipment.name),
+  );
   const otherEquipment = equipmentTypes.filter((e) => e.slug !== equipment.slug);
 
   const breadcrumbSchema = {
@@ -184,7 +188,7 @@ function EquipmentTypePage({ typeSlug }: { typeSlug: string }) {
             {supportedBrands.map((b) => (
               <Link
                 key={b.slug}
-                href={`/products/${b.slug}/${equipment.slug}`}
+                href={hasComboPages && b.equipmentTypes.includes(equipment.name) ? `/products/${b.slug}/${equipment.slug}` : `/parts/${b.slug}`}
                 className="group flex items-center gap-3 rounded-xl border border-border bg-white px-5 py-4 transition-all hover:border-primary/20 hover:shadow-md hover:shadow-primary/5"
               >
                 <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary-light text-primary transition-colors group-hover:bg-primary group-hover:text-white">
