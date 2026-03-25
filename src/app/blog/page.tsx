@@ -3,6 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { getAllPosts } from "@/lib/blog";
 
+export const dynamic = "force-static";
+export const revalidate = false;
+
 export const metadata: Metadata = {
   title: "Blog | Fazlerasheed & Co.",
   description:

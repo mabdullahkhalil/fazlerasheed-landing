@@ -4,6 +4,9 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getAllSlugs, getPostBySlug, getAllPosts } from "@/lib/blog";
 
+export const dynamic = "force-static";
+export const revalidate = false;
+
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }
