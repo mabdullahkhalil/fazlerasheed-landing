@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "RoyPow LiFePO4 Forklift Batteries in Pakistan | Fazlerasheed & Co.",
+  title: "RoyPow LiFePO4 Forklift Batteries in Pakistan",
   description:
     "Fazlerasheed & Co. is the authorized distributor of RoyPow LiFePO4 lithium forklift batteries in Pakistan. 3,500+ cycle life, zero maintenance, 5-year warranty.",
   alternates: { canonical: "https://fazlerasheed.com/batteries/roypow" },

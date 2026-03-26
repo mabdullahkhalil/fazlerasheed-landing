@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Services - Rental, Maintenance, Battery Regeneration | Fazlerasheed & Co.",
+  title: "Forklift Rental, Maintenance & Battery Regeneration Services",
   description:
     "Fazlerasheed offers forklift rental services, planned maintenance, battery regeneration, wheel retreading, and golf cart maintenance across Pakistan.",
   alternates: { canonical: "https://fazlerasheed.com/services" },

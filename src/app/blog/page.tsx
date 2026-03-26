@@ -7,7 +7,7 @@ export const dynamic = "force-static";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Blog | Fazlerasheed & Co.",
+  title: "Blog - Forklift & Material Handling Insights",
   description:
     "Expert insights on forklifts, batteries, warehouse operations and material handling equipment in Pakistan. Buying guides, maintenance tips and industry news.",
   alternates: { canonical: "https://fazlerasheed.com/blog" },

@@ -34,7 +34,7 @@ export async function generateMetadata({
     const equipment = getEquipmentBySlug(slug[0]);
     if (!equipment) return {};
     return {
-      title: `${equipment.name} for Sale & Rental in Pakistan | Fazlerasheed & Co.`,
+      title: `${equipment.name} for Sale & Rental in Pakistan`,
       description: equipment.description,
       alternates: { canonical: `https://fazlerasheed.com/products/${equipment.slug}` },
     };
@@ -45,7 +45,7 @@ export async function generateMetadata({
     const equipment = getEquipmentBySlug(slug[1]);
     if (!brand || !equipment) return {};
     return {
-      title: `${brand.name} ${equipment.name} for Sale & Rental in Pakistan | Fazlerasheed & Co.`,
+      title: `${brand.name} ${equipment.name} for Sale & Rental in Pakistan`,
       description: `Buy or rent ${brand.name} ${equipment.name.toLowerCase()} in Pakistan. ${equipment.description}`,
       alternates: {
         canonical: `https://fazlerasheed.com/products/${brand.slug}/${equipment.slug}`,

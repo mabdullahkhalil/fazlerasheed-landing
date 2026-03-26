@@ -3,7 +3,7 @@ import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Fazlerasheed & Co. | Get in Touch",
+  title: "Contact Us - Get a Free Quote for Forklifts & MHE",
   description:
     "Contact Fazlerasheed & Co. for forklift rental, spare parts, traction batteries, and maintenance services in Pakistan. Call +92 333 6871970 or email us.",
   alternates: { canonical: "https://fazlerasheed.com/contact" },

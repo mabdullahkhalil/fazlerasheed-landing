@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Warehousing Equipment, Spare Parts & Traction Batteries | Fazlerasheed & Co.",
+  title: "Warehousing Equipment, Spare Parts & Traction Batteries",
   description:
     "Our battery operated warehousing equipment includes Power Pallets, Fork Lifters, Reach Trucks, Tow Trucks and Hand Pallets along with best services and spare parts.",
   alternates: { canonical: "https://fazlerasheed.com/products" },

@@ -17,7 +17,7 @@ export async function generateMetadata({
   const category = getCategoryBySlug(slug);
   if (!category) return {};
   return {
-    title: `Forklift ${category.name} in Pakistan | Fazlerasheed & Co.`,
+    title: `Forklift ${category.name} in Pakistan`,
     description: category.description,
     alternates: { canonical: `https://fazlerasheed.com/spare-parts/category/${category.slug}` },
   };

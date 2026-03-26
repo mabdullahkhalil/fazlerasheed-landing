@@ -17,7 +17,7 @@ export async function generateMetadata({
   const brand = getBrandBySlug(slug);
   if (!brand) return {};
   return {
-    title: `${brand.name} Forklift Spare Parts in Pakistan | Fazlerasheed & Co.`,
+    title: `${brand.name} Forklift Spare Parts in Pakistan`,
     description: brand.description,
     alternates: { canonical: `https://fazlerasheed.com/spare-parts/${brand.slug}` },
   };

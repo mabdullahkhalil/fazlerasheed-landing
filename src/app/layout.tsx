@@ -18,7 +18,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Fazlerasheed & Co. - Battery Operated Forklifts, Reach Trucks & MHE in Pakistan",
+  title: {
+    default: "Fazlerasheed & Co. - Battery Operated Forklifts, Reach Trucks & MHE in Pakistan",
+    template: "%s | Fazlerasheed & Co.",
+  },
   description:
     "Fazlerasheed & Co. deals in sale and rental of imported battery operated forklift, reach truck and material handling equipment in Pakistan. 10+ years experience, 200+ machines fleet.",
   metadataBase: new URL("https://fazlerasheed.com"),
@@ -32,9 +35,6 @@ export const metadata: Metadata = {
   },
   manifest: "/images/favicons/site.webmanifest",
   openGraph: {
-    title: "Fazlerasheed & Co. - Battery Operated Forklifts, Reach Trucks & MHE in Pakistan",
-    description:
-      "We deal in battery operated forklifts, reach trucks and stackers in Pakistan. Sales, rental, maintenance, spare parts and traction batteries.",
     url: "https://fazlerasheed.com",
     siteName: "Fazlerasheed & Co.",
     locale: "en_US",
@@ -50,9 +50,6 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fazlerasheed & Co. - Battery Operated Forklifts & MHE in Pakistan",
-    description:
-      "Sale and rental of imported battery operated forklifts, reach trucks, and material handling equipment in Pakistan.",
     images: ["/images/fr-logo.png"],
   },
   alternates: {

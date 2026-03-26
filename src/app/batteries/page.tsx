@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Traction Batteries - Eternity, Trojan & RoyPow | Fazlerasheed & Co.",
+  title: "Traction Batteries - Eternity, Trojan & RoyPow",
   description:
     "We supply Eternity, Trojan and RoyPow LiFePO4 traction batteries for forklifts, reach trucks, and all material handling equipment in Pakistan. Lead-acid and lithium-ion options.",
   alternates: { canonical: "https://fazlerasheed.com/batteries" },

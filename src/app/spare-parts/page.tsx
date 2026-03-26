@@ -3,8 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title:
-    "Forklift Spare Parts - Genuine & OEM | Fazlerasheed & Co.",
+  title: "Forklift Spare Parts - Genuine & OEM for All Major Brands",
   description:
     "We supply genuine and OEM forklift spare parts for Jungheinrich, Still, Clark, Linde, Crown, Toyota, BT, Yale and more across Pakistan.",
   alternates: { canonical: "https://fazlerasheed.com/spare-parts" },

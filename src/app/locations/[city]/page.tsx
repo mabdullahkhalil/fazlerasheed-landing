@@ -16,7 +16,7 @@ export async function generateMetadata({
   const city = getCityBySlug(slug);
   if (!city) return {};
   return {
-    title: `Forklift Rental & Spare Parts in ${city.name} | Fazlerasheed & Co.`,
+    title: `Forklift Rental & Spare Parts in ${city.name}`,
     description: city.description,
     alternates: { canonical: `https://fazlerasheed.com/locations/${city.slug}` },
   };

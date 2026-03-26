@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "EP Green Lithium-Ion Forklifts & MHE in Pakistan | Fazlerasheed & Co.",
+  title: "EP Green Lithium-Ion Forklifts & MHE in Pakistan",
   description:
     "Fazlerasheed & Co. is the authorized distributor of EP Green lithium-ion forklifts, reach trucks, stackers and power pallets in Pakistan. Zero emissions, low maintenance.",
   alternates: { canonical: "https://fazlerasheed.com/ep" },
