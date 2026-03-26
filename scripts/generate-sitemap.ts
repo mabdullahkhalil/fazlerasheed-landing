@@ -91,6 +91,7 @@ const corePages = [
   { path: "/contact", file: "src/app/contact/page.tsx" },
   { path: "/ep", file: "src/app/ep/page.tsx" },
   { path: "/blog", file: "src/app/blog/page.tsx" },
+  { path: "/batteries/roypow", file: "src/app/batteries/roypow/page.tsx" },
 ];
 for (const p of corePages) {
   entries.push({ loc: `${BASE}${p.path}`, lastmod: gitDate(p.file) });

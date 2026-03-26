@@ -3,15 +3,25 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Traction Batteries - Eternity & Trojan | Fazlerasheed & Co.",
+  title: "Traction Batteries - Eternity, Trojan & RoyPow | Fazlerasheed & Co.",
   description:
-    "We supply Eternity and Trojan traction batteries for forklifts, reach trucks, and all material handling equipment in Pakistan. Low maintenance, long life, deep-cycle batteries.",
+    "We supply Eternity, Trojan and RoyPow LiFePO4 traction batteries for forklifts, reach trucks, and all material handling equipment in Pakistan. Lead-acid and lithium-ion options.",
   alternates: { canonical: "https://fazlerasheed.com/batteries" },
 };
 
 const batteryBrands = [
   { name: "Eternity", logo: "/images/brands/eternity.png", alt: "Eternity Technologies industrial batteries brand" },
   { name: "Hawker", logo: "/images/brands/hawker.png", alt: "Hawker traction batteries brand" },
+  { name: "RoyPow", logo: "/images/brands/roypow.png", alt: "RoyPow LiFePO4 lithium forklift batteries brand" },
+];
+
+const roypowHighlights = [
+  "24V to 80V Range",
+  "3,500+ Cycle Life",
+  "5-Year Warranty",
+  "Built-in BMS",
+  "Zero Maintenance",
+  "Multi-Shift Operation",
 ];
 
 const eternityApplications = [
@@ -214,6 +224,73 @@ export default function BatteriesPage() {
                 height={400}
                 className="relative mx-auto rounded-xl object-contain transition-transform duration-500 group-hover:scale-[1.03]"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* RoyPow LiFePO4 Batteries */}
+      <section className="bg-white py-20 lg:py-28">
+        <div className="mx-auto max-w-7xl px-4 lg:px-8">
+          <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+            {/* Image card */}
+            <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-light to-light-blue p-8 lg:p-12">
+              <div className="absolute right-0 top-0 h-40 w-40 rounded-full bg-primary/5 blur-3xl" />
+              <Image
+                src="/images/roypow-partnership.webp"
+                alt="RoyPow LiFePO4 lithium forklift batteries - authorized distributor Fazlerasheed Pakistan"
+                width={580}
+                height={400}
+                className="relative mx-auto rounded-xl object-contain transition-transform duration-500 group-hover:scale-[1.03]"
+              />
+            </div>
+
+            <div>
+              <div className="mb-4 flex items-center gap-3">
+                <span aria-hidden="true" className="text-4xl font-bold text-foreground/10 font-heading">03</span>
+                <div className="h-px flex-1 bg-gradient-to-r from-primary/20 to-transparent" />
+              </div>
+              <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-primary">
+                Lithium Partner
+              </p>
+              <h2 className="mb-5 text-3xl font-bold text-foreground font-heading md:text-4xl">
+                RoyPow LiFePO4 Batteries
+              </h2>
+              <p className="mb-4 text-base leading-relaxed text-muted">
+                RoyPow manufactures high-performance LiFePO4 (lithium iron
+                phosphate) batteries designed as a direct drop-in replacement
+                for lead-acid forklift batteries. With up to 10 years of service
+                life and 3,500+ charge cycles, RoyPow batteries deliver
+                consistent power, zero maintenance and multi-shift capability.
+              </p>
+              <p className="mb-8 text-base leading-relaxed text-muted">
+                Available from 24V to 80V with built-in Battery Management
+                Systems, UL/CE certification and a 5-year warranty. Compatible
+                with all major forklift brands including Toyota, Linde,
+                Jungheinrich, Still, Yale and more.
+              </p>
+
+              {/* Highlights grid */}
+              <div className="mb-8 grid grid-cols-2 gap-3">
+                {roypowHighlights.map((item) => (
+                  <div key={item} className="flex items-center gap-2 text-sm text-foreground">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="shrink-0 text-primary">
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    {item}
+                  </div>
+                ))}
+              </div>
+
+              <Link
+                href="/batteries/roypow"
+                className="group/btn inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-sm font-semibold text-white shadow-lg shadow-primary/20 transition-all hover:bg-primary-dark hover:shadow-xl hover:shadow-primary/25"
+              >
+                View RoyPow Batteries
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform group-hover/btn:translate-x-0.5">
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </Link>
             </div>
           </div>
         </div>

@@ -33,6 +33,7 @@ const brandLinks = [
   { label: "BT Parts", href: "/spare-parts/bt" },
   { label: "Yale Parts", href: "/spare-parts/yale" },
   { label: "EP Parts", href: "/spare-parts/ep" },
+  { label: "RoyPow Batteries", href: "/batteries/roypow" },
 ];
 
 const locationLinks = [

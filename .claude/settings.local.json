@@ -34,7 +34,9 @@
       "Bash(# Resize to 800x420 for card display and optimize for f in public/images/ep-machines/*.webp; do sips -z 420 800 \"\"$f\"\" --out \"\"$f\"\" done echo \"\"Resized. Checking sizes:\"\" ls -lh public/images/ep-machines/*.webp)",
       "Bash(bun add:*)",
       "WebFetch(domain:www.epequip.com)",
-      "Bash(npx tsx:*)"
+      "Bash(npx tsx:*)",
+      "WebFetch(domain:www.roypow.com)",
+      "Bash(file:*)"
     ]
   }
 }
