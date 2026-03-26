@@ -10,28 +10,10 @@ const brands = [
   { src: "/images/brands/bt.png", alt: "BT by Toyota material handling brand", width: 80 },
   { src: "/images/brands/hawker.png", alt: "Hawker traction batteries brand", width: 110 },
   { src: "/images/brands/eternity.png", alt: "Eternity Technologies industrial batteries brand", width: 100 },
+  { src: "/images/brands/ep.png", alt: "EP Equipment lithium-ion forklift brand", width: 100 },
+  { src: "/images/brands/byd.png", alt: "BYD electric forklift brand", width: 100 },
+  { src: "/images/brands/roypow.png", alt: "RoyPow lithium battery brand", width: 100 },
 ];
-
-function BrandSet() {
-  return (
-    <div className="flex shrink-0 items-center gap-14">
-      {brands.map((brand) => (
-        <div
-          key={brand.alt}
-          className="flex shrink-0 items-center transition-all"
-        >
-          <Image
-            src={brand.src}
-            alt={brand.alt}
-            width={brand.width}
-            height={40}
-            className="h-8 w-auto object-contain md:h-10"
-          />
-        </div>
-      ))}
-    </div>
-  );
-}
 
 export default function TrustBar() {
   return (
@@ -47,10 +29,19 @@ export default function TrustBar() {
         <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-16 bg-gradient-to-r from-white to-transparent" />
         <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-16 bg-gradient-to-l from-white to-transparent" />
 
-        {/* Two identical sets side by side, animate the wrapper */}
-        <div className="flex w-max animate-[ticker_6s_linear_infinite] gap-14 hover:[animation-play-state:paused]">
-          <BrandSet />
-          <BrandSet />
+        {/* Duplicated flat list — translateX(-50%) is pixel-perfect */}
+        <div className="flex w-max animate-[ticker_30s_linear_infinite] hover:[animation-play-state:paused]">
+          {[...brands, ...brands].map((brand, i) => (
+            <div key={i} className="flex shrink-0 items-center px-7">
+              <Image
+                src={brand.src}
+                alt={brand.alt}
+                width={brand.width}
+                height={40}
+                className="h-8 w-auto object-contain md:h-10"
+              />
+            </div>
+          ))}
         </div>
       </div>
     </section>
