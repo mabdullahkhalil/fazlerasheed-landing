@@ -36,7 +36,12 @@
       "WebFetch(domain:www.epequip.com)",
       "Bash(npx tsx:*)",
       "WebFetch(domain:www.roypow.com)",
-      "Bash(file:*)"
+      "Bash(file:*)",
+      "WebFetch(domain:en.byd.com)",
+      "WebFetch(domain:tri-lift.com)",
+      "WebFetch(domain:valleyindustrialtrucks.com)",
+      "WebFetch(domain:bydforklift.com)",
+      "WebFetch(domain:www.allmachines.com)"
     ]
   }
 }

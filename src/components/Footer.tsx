@@ -34,6 +34,7 @@ const brandLinks = [
   { label: "Yale Parts", href: "/spare-parts/yale" },
   { label: "EP Parts", href: "/spare-parts/ep" },
   { label: "RoyPow Batteries", href: "/batteries/roypow" },
+  { label: "BYD Forklifts", href: "/byd" },
 ];
 
 const locationLinks = [
