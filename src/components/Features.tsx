@@ -7,6 +7,7 @@ const features = [
     description:
       "Our extensive range includes battery-operated machines ranging from 1 ton to 5.5 tons, with electric machines that come with various attachments to enhance their functionality.",
     href: "/products",
+    linkText: "Explore forklift sales and rental options",
     image: "/images/forklift-sales-rental-pakistan.png",
     imageAlt: "Battery operated forklift sales and rental in Pakistan",
   },
@@ -15,6 +16,7 @@ const features = [
     description:
       "Fazlerasheed & Co. provides traction batteries, semi traction batteries, backup batteries from European suppliers. We deal in market leading brands including Hawker, Eternity, Sunlight and Trojan.",
     href: "/batteries",
+    linkText: "View traction battery options",
     image: "/images/traction-batteries-pakistan.png",
     imageAlt: "Traction batteries for forklifts in Pakistan - Hawker Eternity Trojan",
   },
@@ -23,6 +25,7 @@ const features = [
     description:
       "We provide the best quality genuine spare parts of all brands including original, OEM parts, wheels, and solid tires. We are the distributors of world top parts supplier i.e. TVH.",
     href: "/spare-parts",
+    linkText: "Browse forklift spare parts",
     image: "/images/forklift-spare-parts-pakistan.png",
     imageAlt: "Genuine OEM forklift spare parts supplier in Pakistan",
   },
@@ -31,6 +34,7 @@ const features = [
     description:
       "We boast cutting-edge equipment that facilitates the maintenance of all types of machines. Our clients entrust us with their malfunctioning machines, which we expertly refurbish and recondition.",
     href: "/services",
+    linkText: "Discover maintenance services",
     image: "/images/forklift-maintenance-service.png",
     imageAlt: "Forklift care maintenance and reconditioning service",
   },
@@ -79,7 +83,7 @@ export default function Features() {
                   href={feature.href}
                   className="inline-flex items-center gap-1.5 text-sm font-semibold text-primary transition-all hover:gap-2.5"
                 >
-                  Learn More
+                  {feature.linkText}
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="m9 18 6-6-6-6" />
                   </svg>
