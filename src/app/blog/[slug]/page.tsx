@@ -64,23 +64,25 @@ export default async function BlogPostPage({
     ],
   };
 
+  const wordCount = post.content.trim().split(/\s+/).length;
+
   const articleSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: post.title,
     description: post.metaDescription,
     image: `https://fazlerasheed.com${post.coverImage}`,
     datePublished: post.date,
     dateModified: post.updatedAt ?? post.date,
+    wordCount,
+    articleSection: categoryLabels[post.category] ?? post.category,
+    keywords: post.tags,
     author: {
       "@type": "Person",
       name: post.author,
+      worksFor: { "@id": "https://fazlerasheed.com/#organization" },
     },
-    publisher: {
-      "@type": "Organization",
-      name: "Fazlerasheed & Co.",
-      url: "https://fazlerasheed.com",
-    },
+    publisher: { "@id": "https://fazlerasheed.com/#organization" },
     mainEntityOfPage: `https://fazlerasheed.com/blog/${post.slug}`,
   };
 

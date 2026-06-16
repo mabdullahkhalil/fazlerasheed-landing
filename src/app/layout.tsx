@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Open_Sans, Poppins } from "next/font/google";
 import Script from "next/script";
 import Header from "@/components/Header";
@@ -52,9 +52,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: ["/images/fr-logo.png"],
   },
-  alternates: {
-    canonical: "https://fazlerasheed.com",
-  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#2d6fad",
 };
 
 export default function RootLayout({

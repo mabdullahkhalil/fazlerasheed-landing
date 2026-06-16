@@ -30,7 +30,7 @@ draft: false
 - **Lithium for multi-shift, lead-acid for single-shift:** Lithium-ion costs more upfront but suits 2–3 shift operations with opportunity charging; lead-acid is cheaper for single-shift use.
 - **Buy for indoor work:** Zero emissions, low noise, and lower running costs make battery forklifts ideal for Rawalpindi's Military & Defence Logistics, Heavy Engineering, and Wholesale & Trading operations.
 - **Plan for local conditions:** Mixed indoor–outdoor yards around Rawat and Taxila mean dust and uneven surfaces — choose the right tyres and clean air paths frequently.
-- **Budget realistically:** Expect roughly **PKR 3,200,000–4,800,000** for a new 5,000 kg-class electric forklift, with lighter-capacity models costing considerably less.
+- **Budget realistically:** Expect roughly **PKR 3,000,000–4,800,000** for a new 2,500–3,500 kg forklift for heavier engineering and wholesale loads; lighter models cost less.
 
 Fazlerasheed & Co. supplies Rawalpindi with [forklift sales and rentals](/products), same-day [spare parts](/spare-parts), and on-site [maintenance](/services).
 

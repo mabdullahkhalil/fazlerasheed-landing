@@ -30,7 +30,7 @@ draft: false
 - **Lithium for multi-shift, lead-acid for single-shift:** Lithium-ion costs more upfront but suits 2–3 shift operations with opportunity charging; lead-acid is cheaper for single-shift use.
 - **Buy for indoor work:** Zero emissions, low noise, and lower running costs make battery forklifts ideal for Lahore's textile, pharmaceutical, and FMCG warehouses.
 - **Plan for heat and dust:** Lahore summers and textile lint shorten battery and component life without the right cooling and maintenance routine.
-- **Budget realistically:** Expect roughly **PKR 3,200,000–4,800,000** for a new 5,000 kg-class electric forklift, with lighter-capacity models costing considerably less.
+- **Budget realistically:** Expect roughly **PKR 2,200,000–4,200,000** for a new forklift in the 1,500–3,000 kg class most Lahore warehouses need; only 5,000 kg-class trucks push toward PKR 4,800,000.
 
 Fazlerasheed & Co. is headquartered in Lahore, so you get same-day [spare parts](/spare-parts), on-site [maintenance](/services), and a large rental fleet across the metro area.
 

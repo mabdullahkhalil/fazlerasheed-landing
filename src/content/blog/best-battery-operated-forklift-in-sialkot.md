@@ -30,7 +30,7 @@ draft: false
 - **Lithium for multi-shift, lead-acid for single-shift:** Lithium-ion costs more upfront but suits 2–3 shift operations with opportunity charging; lead-acid is cheaper for single-shift use.
 - **Buy for indoor work:** Zero emissions, low noise, and lower running costs make battery forklifts ideal for Sialkot's Sports Goods Manufacturing, Surgical Instruments, and Leather & Gloves operations.
 - **Plan for local conditions:** Clean, precision handling matters more than heavy lifting here — but airport-cargo and EPZ throughput rewards forklifts that run multiple shifts without downtime.
-- **Budget realistically:** Expect roughly **PKR 3,200,000–4,800,000** for a new 5,000 kg-class electric forklift, with lighter-capacity models costing considerably less.
+- **Budget realistically:** Expect roughly **PKR 2,200,000–3,400,000** for a new 1,500–2,000 kg forklift suited to precise export handling; heavier 5,000 kg-class units cost more.
 
 Fazlerasheed & Co. supplies Sialkot with [forklift sales and rentals](/products), same-day [spare parts](/spare-parts), and on-site [maintenance](/services).
 

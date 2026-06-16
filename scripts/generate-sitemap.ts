@@ -5,7 +5,7 @@
  */
 
 import { execSync } from "child_process";
-import { writeFileSync, readdirSync } from "fs";
+import { writeFileSync } from "fs";
 import { resolve } from "path";
 
 const BASE = "https://fazlerasheed.com";
@@ -155,14 +155,17 @@ for (const bSlug of brandSlugs) {
   }
 }
 
-// Blog posts
-const blogDir = resolve(ROOT, "src/content/blog");
-const blogDate = latest("src/app/blog/[slug]/page.tsx");
+// Blog posts — read the same generated source the pages render from
+// (src/data/blog-posts.json, produced by generate-blog-data.ts in prebuild)
+// so the sitemap can never drift from what is actually published. Each post
+// gets its own <lastmod> from the git history of its markdown source.
 try {
-  const blogFiles = readdirSync(blogDir).filter((f) => f.endsWith(".md"));
-  for (const file of blogFiles) {
-    const slug = file.replace(/\.md$/, "");
-    entries.push({ loc: `${BASE}/blog/${slug}`, lastmod: blogDate });
+  const blogJson = JSON.parse(
+    readFileSync(resolve(ROOT, "src/data/blog-posts.json"), "utf-8"),
+  ) as { slug: string; date?: string; updatedAt?: string }[];
+  for (const post of blogJson) {
+    const lastmod = gitDate(`src/content/blog/${post.slug}.md`);
+    entries.push({ loc: `${BASE}/blog/${post.slug}`, lastmod });
   }
 } catch {
   /* no blog posts */

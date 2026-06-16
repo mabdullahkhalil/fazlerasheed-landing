@@ -30,7 +30,7 @@ draft: false
 - **Lithium for multi-shift, lead-acid for single-shift:** Lithium-ion costs more upfront but suits 2–3 shift operations with opportunity charging; lead-acid is cheaper for single-shift use.
 - **Buy for indoor work:** Zero emissions, low noise, and lower running costs make battery forklifts ideal for Peshawar's Cross-Border Trade & Logistics, Construction & Infrastructure, and Agricultural Commodities operations.
 - **Plan for local conditions:** Peshawar's wide temperature swings — hot summers and cold winters — affect battery performance at both extremes; lithium with thermal management handles this best.
-- **Budget realistically:** Expect roughly **PKR 3,200,000–4,800,000** for a new 5,000 kg-class electric forklift, with lighter-capacity models costing considerably less.
+- **Budget realistically:** Expect roughly **PKR 3,000,000–4,200,000** for a new 2,000–3,000 kg forklift for cross-border logistics and construction supply; lighter and heavier classes vary either side.
 
 Fazlerasheed & Co. supplies Peshawar with [forklift sales and rentals](/products), same-day [spare parts](/spare-parts), and on-site [maintenance](/services).
 

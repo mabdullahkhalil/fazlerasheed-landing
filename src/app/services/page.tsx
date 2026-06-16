@@ -9,9 +9,35 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://fazlerasheed.com/services" },
 };
 
+const serviceSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  serviceType: "Forklift Rental, Maintenance & Spare Parts",
+  provider: { "@id": "https://fazlerasheed.com/#organization" },
+  areaServed: { "@type": "Country", name: "Pakistan" },
+  url: "https://fazlerasheed.com/services",
+  description:
+    "Forklift and material handling equipment rental, planned and full maintenance, battery regeneration, wheel/castor retreading, and golf cart maintenance across Pakistan.",
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Material Handling Services",
+    itemListElement: [
+      { "@type": "OfferCatalog", name: "Equipment Rental" },
+      { "@type": "OfferCatalog", name: "Planned & Full Maintenance" },
+      { "@type": "OfferCatalog", name: "Battery Regeneration" },
+      { "@type": "OfferCatalog", name: "Wheel & Castor Retreading" },
+      { "@type": "OfferCatalog", name: "Golf Cart Maintenance" },
+    ],
+  },
+};
+
 export default function ServicesPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary to-primary-dark">
         <div className="mx-auto max-w-7xl px-4 py-10 lg:px-8 lg:py-14">
