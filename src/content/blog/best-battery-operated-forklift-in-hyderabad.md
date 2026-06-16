@@ -30,7 +30,7 @@ draft: false
 - **Lithium for multi-shift, lead-acid for single-shift:** Lithium-ion costs more upfront but suits 2–3 shift operations with opportunity charging; lead-acid is cheaper for single-shift use.
 - **Buy for indoor work:** Zero emissions, low noise, and lower running costs make battery forklifts ideal for Hyderabad's Glass & Bangles Manufacturing, Textile Mills, and Chemical Processing operations.
 - **Plan for local conditions:** High heat, humidity near the Indus, and fine glass and textile dust all shorten component life without regular cleaning and battery temperature control.
-- **Budget realistically:** Expect roughly **PKR 3,200,000–4,800,000** for a new 5,000 kg-class electric forklift, with lighter-capacity models costing considerably less.
+- **Budget realistically:** Expect roughly **PKR 2,200,000–4,200,000** for a new 1,500–3,000 kg forklift tuned for hot, dusty floors; heavier 5,000 kg-class units cost more.
 
 Fazlerasheed & Co. supplies Hyderabad with [forklift sales and rentals](/products), same-day [spare parts](/spare-parts), and on-site [maintenance](/services).
 

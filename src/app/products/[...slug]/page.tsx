@@ -97,11 +97,26 @@ function EquipmentTypePage({ typeSlug }: { typeSlug: string }) {
     ],
   };
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: `${equipment.name} for Sale & Rental in Pakistan`,
+    description: equipment.description,
+    image: `https://fazlerasheed.com${equipment.image}`,
+    category: "Material Handling Equipment",
+    url: `https://fazlerasheed.com/products/${equipment.slug}`,
+    additionalProperty: equipment.specs.map((spec) => ({
+      "@type": "PropertyValue",
+      name: spec.label,
+      value: spec.value,
+    })),
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema, productSchema]) }}
       />
       {/* Hero */}
       <section className="bg-gradient-to-br from-primary to-primary-dark">
@@ -310,11 +325,27 @@ function BrandEquipmentPage({ brandSlug, typeSlug }: { brandSlug: string; typeSl
     ],
   };
 
+  const productSchema = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: `${brand.name} ${equipment.name}`,
+    description: `Buy or rent ${brand.name} ${equipment.name.toLowerCase()} in Pakistan. ${equipment.description}`,
+    image: `https://fazlerasheed.com${brand.image}`,
+    category: "Material Handling Equipment",
+    url: `https://fazlerasheed.com/products/${brand.slug}/${equipment.slug}`,
+    brand: { "@type": "Brand", name: brand.name },
+    additionalProperty: equipment.specs.map((spec) => ({
+      "@type": "PropertyValue",
+      name: spec.label,
+      value: spec.value,
+    })),
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([breadcrumbSchema, productSchema]) }}
       />
 
       {/* Hero */}

@@ -30,7 +30,7 @@ draft: false
 - **Lithium for multi-shift, lead-acid for single-shift:** Lithium-ion costs more upfront but suits 2–3 shift operations with opportunity charging; lead-acid is cheaper for single-shift use.
 - **Buy for indoor work:** Zero emissions, low noise, and lower running costs make battery forklifts ideal for Faisalabad's Textile Mills & Weaving, Dyeing & Processing, and Chemical Plants operations.
 - **Plan for local conditions:** Heavy lint from weaving and dyeing clogs radiators and contactors fast, and hot summers stress batteries — schedule frequent cleaning and tight temperature control.
-- **Budget realistically:** Expect roughly **PKR 3,200,000–4,800,000** for a new 5,000 kg-class electric forklift, with lighter-capacity models costing considerably less.
+- **Budget realistically:** Expect roughly **PKR 2,200,000–4,200,000** for a new 1,500–2,500 kg forklift tuned for lint-heavy mill floors; heavier 5,000 kg-class units cost more.
 
 Fazlerasheed & Co. supplies Faisalabad with [forklift sales and rentals](/products), same-day [spare parts](/spare-parts), and on-site [maintenance](/services).
 

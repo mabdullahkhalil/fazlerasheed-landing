@@ -30,7 +30,7 @@ draft: false
 - **Lithium for multi-shift, lead-acid for single-shift:** Lithium-ion costs more upfront but suits 2–3 shift operations with opportunity charging; lead-acid is cheaper for single-shift use.
 - **Buy for indoor work:** Zero emissions, low noise, and lower running costs make battery forklifts ideal for Karachi's Port & Shipping Logistics, Automotive Assembly, and Chemical Manufacturing operations.
 - **Plan for local conditions:** Coastal salt air and humidity accelerate corrosion on battery terminals, connectors, and contactors — seal and clean them more often than inland sites.
-- **Budget realistically:** Expect roughly **PKR 3,200,000–4,800,000** for a new 5,000 kg-class electric forklift, with lighter-capacity models costing considerably less.
+- **Budget realistically:** Expect roughly **PKR 3,000,000–4,800,000** for a new 2,000–3,500 kg forklift suited to Karachi port and factory work; lighter 1,500–2,000 kg models cost considerably less.
 
 Fazlerasheed & Co. supplies Karachi with [forklift sales and rentals](/products), same-day [spare parts](/spare-parts), and on-site [maintenance](/services).
 

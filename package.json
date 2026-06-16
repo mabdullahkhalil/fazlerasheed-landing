@@ -7,7 +7,8 @@
     "prebuild": "bun run scripts/generate-blog-data.ts && bun run scripts/generate-sitemap.ts",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "submit-indexnow": "bun run scripts/submit-indexnow.ts"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
