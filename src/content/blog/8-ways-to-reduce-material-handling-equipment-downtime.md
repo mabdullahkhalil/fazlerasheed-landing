@@ -15,7 +15,7 @@ tags:
   - operator training
   - battery care
   - spare parts management
-coverImage: "/images/blog/reduce-equipment-downtime.jpg"
+coverImage: "/images/blog/reduce-equipment-downtime.webp"
 coverImageAlt: "Material handling equipment maintenance in a warehouse to reduce downtime"
 featured: false
 draft: false

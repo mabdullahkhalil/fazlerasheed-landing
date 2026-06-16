@@ -17,7 +17,7 @@ tags:
   - battery regeneration
   - sulfation prevention
   - equalisation charging
-coverImage: "/images/blog/pulse-technology-vs-desulfation.jpg"
+coverImage: "/images/blog/pulse-technology-vs-desulfation.webp"
 coverImageAlt: "Comparison of pulse technology and traditional desulfation for forklift batteries"
 featured: false
 draft: false

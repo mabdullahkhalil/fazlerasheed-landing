@@ -16,7 +16,7 @@ tags:
   - battery care
   - maintenance schedules
   - inspections
-coverImage: "/images/blog/warehouse-equipment-preventive-maintenance.jpg"
+coverImage: "/images/blog/warehouse-equipment-preventive-maintenance.webp"
 coverImageAlt: "Warehouse forklift undergoing preventive maintenance inspection"
 featured: false
 draft: false

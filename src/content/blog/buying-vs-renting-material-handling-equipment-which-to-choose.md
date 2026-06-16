@@ -18,7 +18,7 @@ tags:
   - financial analysis
   - operational needs
   - seasonal demands
-coverImage: "/images/blog/buying-vs-renting-material-handling.jpg"
+coverImage: "/images/blog/buying-vs-renting-material-handling.webp"
 coverImageAlt: "Material handling equipment in a warehouse illustrating buying versus renting"
 featured: false
 draft: false

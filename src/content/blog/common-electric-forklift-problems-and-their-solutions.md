@@ -16,7 +16,7 @@ tags:
   - hydraulic issues
   - forklift maintenance
   - warehouse logistics
-coverImage: "/images/blog/common-electric-forklift-problems.jpg"
+coverImage: "/images/blog/common-electric-forklift-problems.webp"
 coverImageAlt: "Technician troubleshooting common problems on an electric forklift"
 featured: false
 draft: false

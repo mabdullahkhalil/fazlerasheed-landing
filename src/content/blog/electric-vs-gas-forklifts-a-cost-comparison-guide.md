@@ -15,7 +15,7 @@ tags:
   - cost comparison
   - forklift buying guide
   - Pakistan
-coverImage: "/images/blog/electric-vs-gas-forklifts.jpg"
+coverImage: "/images/blog/electric-vs-gas-forklifts.webp"
 coverImageAlt: "Electric forklift and gas forklift side by side comparison in a warehouse"
 featured: false
 draft: false

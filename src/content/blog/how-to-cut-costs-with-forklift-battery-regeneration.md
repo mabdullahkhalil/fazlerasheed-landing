@@ -18,7 +18,7 @@ tags:
   - battery life extension
   - fleet energy efficiency
   - battery reconditioning
-coverImage: "/images/blog/forklift-battery-regeneration-savings.jpg"
+coverImage: "/images/blog/forklift-battery-regeneration-savings.webp"
 coverImageAlt: "Forklift lead-acid battery being regenerated to restore capacity in a warehouse"
 featured: false
 draft: false

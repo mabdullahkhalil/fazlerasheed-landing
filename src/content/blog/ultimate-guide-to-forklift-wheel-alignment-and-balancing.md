@@ -15,7 +15,7 @@ tags:
   - maintenance tips
   - industrial safety
   - cost management
-coverImage: "/images/blog/forklift-wheel-alignment-balancing.jpg"
+coverImage: "/images/blog/forklift-wheel-alignment-balancing.webp"
 coverImageAlt: "Forklift wheel being aligned and balanced during maintenance"
 featured: false
 draft: false

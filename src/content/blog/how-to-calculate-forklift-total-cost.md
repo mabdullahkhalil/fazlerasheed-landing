@@ -15,7 +15,7 @@ tags:
   - maintenance costs
   - operational costs
   - capital costs
-coverImage: "/images/blog/forklift-total-cost-calculation.jpg"
+coverImage: "/images/blog/forklift-total-cost-calculation.webp"
 coverImageAlt: "Calculating the total cost of ownership of a forklift on a spreadsheet"
 featured: false
 draft: false

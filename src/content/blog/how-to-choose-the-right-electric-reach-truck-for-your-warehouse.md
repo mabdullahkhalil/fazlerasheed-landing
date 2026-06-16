@@ -17,7 +17,7 @@ tags:
   - safety features
   - maintenance
   - climate adaptation
-coverImage: "/images/blog/electric-reach-truck-guide.jpg"
+coverImage: "/images/blog/electric-reach-truck-guide.webp"
 coverImageAlt: "Electric reach truck lifting a pallet in a narrow warehouse aisle"
 featured: false
 draft: false

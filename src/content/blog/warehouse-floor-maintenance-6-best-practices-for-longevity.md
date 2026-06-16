@@ -18,7 +18,7 @@ tags:
   - preventive maintenance
   - disinfecting floors
   - floor inspections
-coverImage: "/images/blog/warehouse-floor-maintenance.jpg"
+coverImage: "/images/blog/warehouse-floor-maintenance.webp"
 coverImageAlt: "Clean warehouse floor being maintained with a floor scrubber for longevity"
 featured: false
 draft: false

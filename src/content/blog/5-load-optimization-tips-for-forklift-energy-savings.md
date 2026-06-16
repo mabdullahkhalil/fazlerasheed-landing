@@ -18,7 +18,7 @@ tags:
   - lift height
   - fork positioning
   - load planning
-coverImage: "/images/blog/forklift-load-optimization-energy-savings.jpg"
+coverImage: "/images/blog/forklift-load-optimization-energy-savings.webp"
 coverImageAlt: "Forklift carrying a centred load to optimise energy use in a warehouse"
 featured: false
 draft: false

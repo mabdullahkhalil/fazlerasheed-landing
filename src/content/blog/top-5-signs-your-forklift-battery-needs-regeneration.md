@@ -15,7 +15,7 @@ tags:
   - maintenance
   - signs of battery failure
   - operational efficiency
-coverImage: "/images/blog/signs-forklift-battery-needs-regeneration.jpg"
+coverImage: "/images/blog/signs-forklift-battery-needs-regeneration.webp"
 coverImageAlt: "Forklift battery showing warning signs that it needs regeneration"
 featured: false
 draft: false

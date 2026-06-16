@@ -16,7 +16,7 @@ tags:
   - tire retreading process
   - cost of retreading
   - sustainable fleet tires
-coverImage: "/images/blog/forklift-tire-retreading.jpg"
+coverImage: "/images/blog/forklift-tire-retreading.webp"
 coverImageAlt: "Forklift tire being inspected for retreading in a maintenance workshop"
 featured: false
 draft: false

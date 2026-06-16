@@ -17,7 +17,7 @@ tags:
   - safety inspections
   - hydraulic systems
   - equipment reliability
-coverImage: "/images/blog/seasonal-forklift-maintenance-checklist.jpg"
+coverImage: "/images/blog/seasonal-forklift-maintenance-checklist.webp"
 coverImageAlt: "Forklift undergoing seasonal maintenance checks in a warehouse in Pakistan"
 featured: false
 draft: false

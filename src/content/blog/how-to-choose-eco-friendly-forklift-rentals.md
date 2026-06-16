@@ -18,7 +18,7 @@ tags:
   - forklift maintenance
   - sustainable material handling
   - Pakistan
-coverImage: "/images/blog/eco-friendly-forklift-rentals.jpg"
+coverImage: "/images/blog/eco-friendly-forklift-rentals.webp"
 coverImageAlt: "Eco-friendly electric forklift with zero emissions operating in a warehouse"
 featured: false
 draft: false

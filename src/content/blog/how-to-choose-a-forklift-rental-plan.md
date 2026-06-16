@@ -18,7 +18,7 @@ tags:
   - forklift rental Pakistan
   - lithium-ion forklift
   - rental tips
-coverImage: "/images/blog/forklift-rental-plan.jpg"
+coverImage: "/images/blog/forklift-rental-plan.webp"
 coverImageAlt: "Battery operated forklift available for rental in a warehouse in Pakistan"
 featured: false
 draft: false

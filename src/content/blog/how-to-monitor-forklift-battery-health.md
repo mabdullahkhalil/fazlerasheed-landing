@@ -15,7 +15,7 @@ tags:
   - lead-acid batteries
   - lithium-ion batteries
   - maintenance practices
-coverImage: "/images/blog/monitor-forklift-battery-health.jpg"
+coverImage: "/images/blog/monitor-forklift-battery-health.webp"
 coverImageAlt: "Technician monitoring forklift battery health with a battery management system"
 featured: false
 draft: false
