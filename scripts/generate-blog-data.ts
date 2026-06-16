@@ -9,6 +9,7 @@ import { resolve } from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import gfm from "remark-gfm";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const BLOG_DIR = resolve(ROOT, "src/content/blog");
@@ -31,7 +32,10 @@ async function main() {
 
     if (data.draft) continue;
 
-    const result = await remark().use(html, { sanitize: false }).process(content);
+    const result = await remark()
+      .use(gfm)
+      .use(html, { sanitize: false })
+      .process(content);
 
     posts.push({
       ...data,

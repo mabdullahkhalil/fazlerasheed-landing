@@ -16,7 +16,7 @@ tags:
   - corrosion prevention
   - battery lifespan
   - Pakistan climate
-coverImage: "/images/blog/forklift-battery-maintenance.jpg"
+coverImage: "/images/blog/forklift-battery-maintenance.webp"
 coverImageAlt: "Forklift traction battery being maintained in a warehouse in Pakistan"
 featured: false
 draft: false
