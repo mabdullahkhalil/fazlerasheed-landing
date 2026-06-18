@@ -20,6 +20,7 @@ coverImage: "/images/battery-operated-warehousing-equipment.webp"
 coverImageAlt: "Battery-operated forklift handling pallets in a warehouse in Rawalpindi, Pakistan"
 featured: false
 draft: false
+unlisted: true
 ---
 
 # Best Battery-Operated Forklift in Rawalpindi: A Buyer's Guide

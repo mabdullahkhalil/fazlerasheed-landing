@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { getAllPosts } from "@/lib/blog";
+import { getListedPosts } from "@/lib/blog";
 
 export const dynamic = "force-static";
 export const revalidate = false;
@@ -21,7 +21,7 @@ const categoryLabels: Record<string, string> = {
 };
 
 export default function BlogPage() {
-  const posts = getAllPosts();
+  const posts = getListedPosts();
 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
