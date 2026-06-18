@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getAllSlugs, getPostBySlug, getAllPosts } from "@/lib/blog";
+import { getAllSlugs, getPostBySlug, getListedPosts } from "@/lib/blog";
 
 export const dynamic = "force-static";
 export const revalidate = false;
@@ -51,7 +51,7 @@ export default async function BlogPostPage({
   const post = await getPostBySlug(slug);
   if (!post) notFound();
 
-  const allPosts = getAllPosts().filter((p) => p.slug !== post.slug);
+  const allPosts = getListedPosts().filter((p) => p.slug !== post.slug);
   const related = allPosts.slice(0, 3);
 
   const breadcrumbSchema = {

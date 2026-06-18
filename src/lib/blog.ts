@@ -16,6 +16,7 @@ export type BlogPost = {
   coverImageAlt: string;
   featured?: boolean;
   draft?: boolean;
+  unlisted?: boolean;
   content: string;
   html?: string;
 };
@@ -24,6 +25,12 @@ const posts: BlogPost[] = blogData as BlogPost[];
 
 export function getAllPosts(): BlogPost[] {
   return posts;
+}
+
+// Posts shown in blog listings. Unlisted posts still have their own page
+// (and stay in the sitemap) so they can rank in search, but are hidden here.
+export function getListedPosts(): BlogPost[] {
+  return posts.filter((p) => !p.unlisted);
 }
 
 export function getAllSlugs(): string[] {

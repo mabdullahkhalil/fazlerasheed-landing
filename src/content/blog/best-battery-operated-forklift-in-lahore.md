@@ -20,6 +20,7 @@ coverImage: "/images/battery-operated-warehousing-equipment.webp"
 coverImageAlt: "Battery-operated forklift handling pallets in a warehouse in Lahore, Pakistan"
 featured: false
 draft: false
+unlisted: true
 ---
 
 # Best Battery-Operated Forklift in Lahore: A Buyer's Guide

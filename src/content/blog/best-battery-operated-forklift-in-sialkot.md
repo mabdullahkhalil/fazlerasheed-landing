@@ -20,6 +20,7 @@ coverImage: "/images/battery-operated-warehousing-equipment.webp"
 coverImageAlt: "Battery-operated forklift handling pallets in a warehouse in Sialkot, Pakistan"
 featured: false
 draft: false
+unlisted: true
 ---
 
 # Best Battery-Operated Forklift in Sialkot: A Buyer's Guide
