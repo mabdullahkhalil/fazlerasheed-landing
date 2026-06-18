@@ -11,6 +11,7 @@
     "submit-indexnow": "bun run scripts/submit-indexnow.ts"
   },
   "dependencies": {
+    "@datafast/ai-crawl": "^1.0.5",
     "gray-matter": "^4.0.3",
     "next": "16.2.1",
     "react": "19.2.4",
