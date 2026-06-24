@@ -3,6 +3,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   trailingSlash: false,
   images: {
+    // Cloudflare Pages has no Next.js image optimizer, so /_next/image 500s.
+    // Serve the static files in /public/images directly instead.
+    unoptimized: true,
     formats: ["image/avif", "image/webp"],
   },
   async redirects() {
