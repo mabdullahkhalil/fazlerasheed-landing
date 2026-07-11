@@ -5,12 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "prebuild": "bun run scripts/generate-blog-data.ts && bun run scripts/generate-sitemap.ts",
-    "build": "next build",
+    "build": "opennextjs-cloudflare build",
+    "next:build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "cf:build": "opennextjs-cloudflare build",
+    "preview": "bun run build && opennextjs-cloudflare preview",
+    "deploy": "bun run build && opennextjs-cloudflare deploy",
     "submit-indexnow": "bun run scripts/submit-indexnow.ts"
   },
   "dependencies": {
