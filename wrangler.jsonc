@@ -27,5 +27,10 @@
   ],
   "images": {
     "binding": "IMAGES"
+  },
+  // Workers AI, used by worker.ts to serve `Accept: text/markdown` requests.
+  "ai": {
+    "binding": "AI",
+    "remote": true
   }
 }
