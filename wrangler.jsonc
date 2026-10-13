@@ -9,7 +9,7 @@
     "directory": ".open-next/assets",
     "binding": "ASSETS",
     // Route crawler-facing files through the Worker so DataFast's
-    // withAICrawlerTracking (in worker.ts) sees bot requests to them.
+    // crawler tracking (in worker.ts) sees bot requests to them.
     // Without this, Cloudflare serves these static assets directly and
     // bypasses the Worker, so robots.txt/llms.txt/sitemap hits go untracked.
     // All other static assets stay served directly (fast, no Worker invoke).
