@@ -1,4 +1,8 @@
+# Content Signals (https://contentsignals.org/): we allow search indexing,
+# AI answers that use our content (ai-input), and AI model training.
+
 User-agent: *
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Disallow: /_next/
 Disallow: /api/
 Allow: /
@@ -35,6 +39,7 @@ User-agent: MistralAI-User
 User-agent: cohere-ai
 User-agent: CCBot
 User-agent: Bytespider
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Disallow: /_next/
 Disallow: /api/
 Allow: /
