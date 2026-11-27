@@ -4,6 +4,7 @@ import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { AGENT_SEARCH } from "@/lib/agent-search";
 import "./globals.css";
 
 const openSans = Open_Sans({
@@ -51,6 +52,13 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     images: ["/images/fr-logo.png"],
+  },
+  // Search for Agents: points agents at /.well-known/search (served by worker.ts).
+  other: {
+    "agent:instructions": AGENT_SEARCH.instructions,
+    "agent:endpoint": AGENT_SEARCH.endpoint,
+    "agent:method": AGENT_SEARCH.method,
+    "agent:documentation": AGENT_SEARCH.documentation,
   },
 };
 

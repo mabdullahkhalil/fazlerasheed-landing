@@ -164,3 +164,8 @@ We accept cash and bank transfer, priced in Pakistani Rupees (PKR).
 
 **How can I get a quote or contact you?**
 Call +92 333 6871970, +92 342 4554488, or +92 331 1141062, email info@fazlerasheed.com, or use the [contact page](https://fazlerasheed.com/contact). Hours are Monday–Saturday, 9:00 AM – 6:00 PM.
+
+## For AI Agents
+
+- [Site search](https://fazlerasheed.com/.well-known/search?q=battery+regeneration): Search all pages with keywords or a natural-language question. `GET /.well-known/search?q={query}` (or `QUERY` with a `text/plain` or `{"q": "..."}` JSON body) returns matching passages as Markdown, with source URLs and relevance scores.
+- Markdown pages: request any page URL with `Accept: text/markdown` to get it as Markdown.

@@ -6,7 +6,7 @@
     "dev": "next dev",
     "prebuild": "bun run scripts/generate-blog-data.ts && bun run scripts/generate-sitemap.ts",
     "build": "opennextjs-cloudflare build",
-    "next:build": "next build",
+    "next:build": "next build && bun run scripts/generate-search-index.ts",
     "start": "next start",
     "lint": "eslint",
     "preview": "bun run build && opennextjs-cloudflare preview",
